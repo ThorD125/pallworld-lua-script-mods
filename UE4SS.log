@@ -437,3 +437,282 @@
 [2024-01-21 21:52:14] Starting mods (from mods.txt load order)...
 [2024-01-21 21:52:14] Starting mods (from enabled.txt, no defined load order)...
 [2024-01-21 21:52:14] All mods re-installed
+[2024-01-21 22:19:02] Re-installing all mods
+[2024-01-21 22:19:02] Stopping mod 'ActorDumperMod' for uninstall
+[2024-01-21 22:19:02] Stopping mod 'BPModLoaderMod' for uninstall
+[2024-01-21 22:19:02] Stopping mod 'CheatManagerEnablerMod' for uninstall
+[2024-01-21 22:19:02] 	Unregistering hook by id 'ClientRestart#7' for mod CheatManagerEnablerMod
+[2024-01-21 22:19:02] 	Unregistering hook by id 'ClientRestart#8' for mod CheatManagerEnablerMod
+[2024-01-21 22:19:02] Stopping mod 'ConsoleCommandsMod' for uninstall
+[2024-01-21 22:19:02] Stopping mod 'ConsoleEnablerMod' for uninstall
+[2024-01-21 22:19:02] Stopping mod 'Keybinds' for uninstall
+[2024-01-21 22:19:02] Stopping mod 'LessCaps' for uninstall
+[2024-01-21 22:19:02] Stopping mod 'LineTraceMod' for uninstall
+[2024-01-21 22:19:02] Stopping mod 'RareSpawn' for uninstall
+[2024-01-21 22:19:02] Stopping mod 'SplitScreenMod' for uninstall
+[2024-01-21 22:19:02] Setting up mods...
+[2024-01-21 22:19:02] Cppsdk not present, cpp mods will not be loaded
+[2024-01-21 22:19:02] Starting mods (from mods.txt load order)...
+[2024-01-21 22:19:02] Starting Lua mod 'CheatManagerEnablerMod'
+[2024-01-21 22:19:02] [RegisterHook] Registered native hook (9, 10) for Function /Script/Engine.PlayerController:ClientRestart
+[2024-01-21 22:19:02] Mod 'ActorDumperMod' disabled in mods.txt.
+[2024-01-21 22:19:02] Mod 'ConsoleCommandsMod' disabled in mods.txt.
+[2024-01-21 22:19:02] Mod 'ConsoleEnablerMod' disabled in mods.txt.
+[2024-01-21 22:19:02] Mod 'SplitScreenMod' disabled in mods.txt.
+[2024-01-21 22:19:02] Mod 'LineTraceMod' disabled in mods.txt.
+[2024-01-21 22:19:02] Mod 'BPModLoaderMod' disabled in mods.txt.
+[2024-01-21 22:19:02] Starting Lua mod 'Keybinds'
+[2024-01-21 22:19:02] Starting mods (from enabled.txt, no defined load order)...
+[2024-01-21 22:19:02] Mod 'CurrentWorkingCheats' has enabled.txt, starting mod.
+[2024-01-21 22:19:02] Starting mods (from mods.txt load order)...
+[2024-01-21 22:19:02] Starting mods (from enabled.txt, no defined load order)...
+[2024-01-21 22:19:02] All mods re-installed
+[2024-01-21 22:23:11] Re-installing all mods
+[2024-01-21 22:23:11] Stopping mod 'ActorDumperMod' for uninstall
+[2024-01-21 22:23:11] Stopping mod 'BPModLoaderMod' for uninstall
+[2024-01-21 22:23:11] Stopping mod 'CheatManagerEnablerMod' for uninstall
+[2024-01-21 22:23:11] 	Unregistering hook by id 'ClientRestart#9' for mod CheatManagerEnablerMod
+[2024-01-21 22:23:11] 	Unregistering hook by id 'ClientRestart#10' for mod CheatManagerEnablerMod
+[2024-01-21 22:23:11] Stopping mod 'ConsoleCommandsMod' for uninstall
+[2024-01-21 22:23:11] Stopping mod 'ConsoleEnablerMod' for uninstall
+[2024-01-21 22:23:11] Stopping mod 'CurrentWorkingCheats' for uninstall
+[2024-01-21 22:23:11] Stopping mod 'Keybinds' for uninstall
+[2024-01-21 22:23:11] Stopping mod 'LineTraceMod' for uninstall
+[2024-01-21 22:23:11] Stopping mod 'SplitScreenMod' for uninstall
+[2024-01-21 22:23:11] Setting up mods...
+[2024-01-21 22:23:11] Cppsdk not present, cpp mods will not be loaded
+[2024-01-21 22:23:11] Starting mods (from mods.txt load order)...
+[2024-01-21 22:23:11] Starting Lua mod 'CheatManagerEnablerMod'
+[2024-01-21 22:23:11] [RegisterHook] Registered native hook (11, 12) for Function /Script/Engine.PlayerController:ClientRestart
+[2024-01-21 22:23:11] Mod 'ActorDumperMod' disabled in mods.txt.
+[2024-01-21 22:23:11] Mod 'ConsoleCommandsMod' disabled in mods.txt.
+[2024-01-21 22:23:11] Mod 'ConsoleEnablerMod' disabled in mods.txt.
+[2024-01-21 22:23:11] Mod 'SplitScreenMod' disabled in mods.txt.
+[2024-01-21 22:23:11] Mod 'LineTraceMod' disabled in mods.txt.
+[2024-01-21 22:23:11] Mod 'BPModLoaderMod' disabled in mods.txt.
+[2024-01-21 22:23:11] Starting Lua mod 'Keybinds'
+[2024-01-21 22:23:11] Starting mods (from enabled.txt, no defined load order)...
+[2024-01-21 22:23:11] Mod 'CurrentWorkingCheats' has enabled.txt, starting mod.
+[2024-01-21 22:23:11] Starting mods (from mods.txt load order)...
+[2024-01-21 22:23:11] Starting mods (from enabled.txt, no defined load order)...
+[2024-01-21 22:23:11] All mods re-installed
+[2024-01-21 22:23:25] Re-installing all mods
+[2024-01-21 22:23:25] Stopping mod 'ActorDumperMod' for uninstall
+[2024-01-21 22:23:25] Stopping mod 'BPModLoaderMod' for uninstall
+[2024-01-21 22:23:25] Stopping mod 'CheatManagerEnablerMod' for uninstall
+[2024-01-21 22:23:25] 	Unregistering hook by id 'ClientRestart#11' for mod CheatManagerEnablerMod
+[2024-01-21 22:23:25] 	Unregistering hook by id 'ClientRestart#12' for mod CheatManagerEnablerMod
+[2024-01-21 22:23:25] Stopping mod 'ConsoleCommandsMod' for uninstall
+[2024-01-21 22:23:25] Stopping mod 'ConsoleEnablerMod' for uninstall
+[2024-01-21 22:23:25] Stopping mod 'CurrentWorkingCheats' for uninstall
+[2024-01-21 22:23:25] Stopping mod 'Keybinds' for uninstall
+[2024-01-21 22:23:25] Stopping mod 'LineTraceMod' for uninstall
+[2024-01-21 22:23:25] Stopping mod 'SplitScreenMod' for uninstall
+[2024-01-21 22:23:25] Setting up mods...
+[2024-01-21 22:23:25] Cppsdk not present, cpp mods will not be loaded
+[2024-01-21 22:23:25] Starting mods (from mods.txt load order)...
+[2024-01-21 22:23:25] Starting Lua mod 'CheatManagerEnablerMod'
+[2024-01-21 22:23:25] [RegisterHook] Registered native hook (13, 14) for Function /Script/Engine.PlayerController:ClientRestart
+[2024-01-21 22:23:25] Mod 'ActorDumperMod' disabled in mods.txt.
+[2024-01-21 22:23:25] Mod 'ConsoleCommandsMod' disabled in mods.txt.
+[2024-01-21 22:23:25] Mod 'ConsoleEnablerMod' disabled in mods.txt.
+[2024-01-21 22:23:25] Mod 'SplitScreenMod' disabled in mods.txt.
+[2024-01-21 22:23:25] Mod 'LineTraceMod' disabled in mods.txt.
+[2024-01-21 22:23:25] Mod 'BPModLoaderMod' disabled in mods.txt.
+[2024-01-21 22:23:25] Starting Lua mod 'Keybinds'
+[2024-01-21 22:23:25] Starting mods (from enabled.txt, no defined load order)...
+[2024-01-21 22:23:25] Mod 'CurrentWorkingCheats' has enabled.txt, starting mod.
+[2024-01-21 22:23:25] Starting mods (from mods.txt load order)...
+[2024-01-21 22:23:25] Starting mods (from enabled.txt, no defined load order)...
+[2024-01-21 22:23:25] All mods re-installed
+[2024-01-21 22:23:52] Re-installing all mods
+[2024-01-21 22:23:52] Stopping mod 'ActorDumperMod' for uninstall
+[2024-01-21 22:23:52] Stopping mod 'BPModLoaderMod' for uninstall
+[2024-01-21 22:23:52] Stopping mod 'CheatManagerEnablerMod' for uninstall
+[2024-01-21 22:23:52] 	Unregistering hook by id 'ClientRestart#13' for mod CheatManagerEnablerMod
+[2024-01-21 22:23:52] 	Unregistering hook by id 'ClientRestart#14' for mod CheatManagerEnablerMod
+[2024-01-21 22:23:52] Stopping mod 'ConsoleCommandsMod' for uninstall
+[2024-01-21 22:23:52] Stopping mod 'ConsoleEnablerMod' for uninstall
+[2024-01-21 22:23:52] Stopping mod 'CurrentWorkingCheats' for uninstall
+[2024-01-21 22:23:52] Stopping mod 'Keybinds' for uninstall
+[2024-01-21 22:23:52] Stopping mod 'LineTraceMod' for uninstall
+[2024-01-21 22:23:52] Stopping mod 'SplitScreenMod' for uninstall
+[2024-01-21 22:23:52] Setting up mods...
+[2024-01-21 22:23:52] Cppsdk not present, cpp mods will not be loaded
+[2024-01-21 22:23:52] Starting mods (from mods.txt load order)...
+[2024-01-21 22:23:52] Starting Lua mod 'CheatManagerEnablerMod'
+[2024-01-21 22:23:52] [RegisterHook] Registered native hook (15, 16) for Function /Script/Engine.PlayerController:ClientRestart
+[2024-01-21 22:23:52] Mod 'ActorDumperMod' disabled in mods.txt.
+[2024-01-21 22:23:52] Mod 'ConsoleCommandsMod' disabled in mods.txt.
+[2024-01-21 22:23:52] Mod 'ConsoleEnablerMod' disabled in mods.txt.
+[2024-01-21 22:23:52] Mod 'SplitScreenMod' disabled in mods.txt.
+[2024-01-21 22:23:52] Mod 'LineTraceMod' disabled in mods.txt.
+[2024-01-21 22:23:52] Mod 'BPModLoaderMod' disabled in mods.txt.
+[2024-01-21 22:23:52] Starting Lua mod 'Keybinds'
+[2024-01-21 22:23:52] Starting mods (from enabled.txt, no defined load order)...
+[2024-01-21 22:23:52] Mod 'CurrentWorkingCheats' has enabled.txt, starting mod.
+[2024-01-21 22:23:52] Starting mods (from mods.txt load order)...
+[2024-01-21 22:23:52] Starting mods (from enabled.txt, no defined load order)...
+[2024-01-21 22:23:52] All mods re-installed
+[2024-01-21 22:23:54] [Lua] not found[2024-01-21 22:23:55] [Lua] not found[2024-01-21 22:23:56] [Lua] not found[2024-01-21 22:23:56] [Lua] not found[2024-01-21 22:23:56] [Lua] not found[2024-01-21 22:23:56] [Lua] not found[2024-01-21 22:23:56] [Lua] not found[2024-01-21 22:23:56] [Lua] not found[2024-01-21 22:23:56] [Lua] not found[2024-01-21 22:26:17] Re-installing all mods
+[2024-01-21 22:26:17] Stopping mod 'ActorDumperMod' for uninstall
+[2024-01-21 22:26:17] Stopping mod 'BPModLoaderMod' for uninstall
+[2024-01-21 22:26:17] Stopping mod 'CheatManagerEnablerMod' for uninstall
+[2024-01-21 22:26:17] 	Unregistering hook by id 'ClientRestart#15' for mod CheatManagerEnablerMod
+[2024-01-21 22:26:17] 	Unregistering hook by id 'ClientRestart#16' for mod CheatManagerEnablerMod
+[2024-01-21 22:26:17] Stopping mod 'ConsoleCommandsMod' for uninstall
+[2024-01-21 22:26:17] Stopping mod 'ConsoleEnablerMod' for uninstall
+[2024-01-21 22:26:17] Stopping mod 'CurrentWorkingCheats' for uninstall
+[2024-01-21 22:26:17] Stopping mod 'Keybinds' for uninstall
+[2024-01-21 22:26:17] Stopping mod 'LineTraceMod' for uninstall
+[2024-01-21 22:26:17] Stopping mod 'SplitScreenMod' for uninstall
+[2024-01-21 22:26:17] Setting up mods...
+[2024-01-21 22:26:17] Cppsdk not present, cpp mods will not be loaded
+[2024-01-21 22:26:17] Starting mods (from mods.txt load order)...
+[2024-01-21 22:26:17] Starting Lua mod 'CheatManagerEnablerMod'
+[2024-01-21 22:26:17] [RegisterHook] Registered native hook (17, 18) for Function /Script/Engine.PlayerController:ClientRestart
+[2024-01-21 22:26:17] Mod 'ActorDumperMod' disabled in mods.txt.
+[2024-01-21 22:26:17] Mod 'ConsoleCommandsMod' disabled in mods.txt.
+[2024-01-21 22:26:17] Mod 'ConsoleEnablerMod' disabled in mods.txt.
+[2024-01-21 22:26:17] Mod 'SplitScreenMod' disabled in mods.txt.
+[2024-01-21 22:26:17] Mod 'LineTraceMod' disabled in mods.txt.
+[2024-01-21 22:26:17] Mod 'BPModLoaderMod' disabled in mods.txt.
+[2024-01-21 22:26:17] Starting Lua mod 'Keybinds'
+[2024-01-21 22:26:17] Starting mods (from enabled.txt, no defined load order)...
+[2024-01-21 22:26:17] Mod 'CurrentWorkingCheats' has enabled.txt, starting mod.
+[2024-01-21 22:26:17] Starting mods (from mods.txt load order)...
+[2024-01-21 22:26:17] Starting mods (from enabled.txt, no defined load order)...
+[2024-01-21 22:26:17] All mods re-installed
+[2024-01-21 22:26:20] [Lua::call_function] lua_pcall returned [process_lua_function] A function requiring userdata as param #1 was called without userdata at param #1
+stack traceback:
+	[C]: in field 'IsAnyClass'
+	...inaries\Win64\Mods\CurrentWorkingCheats\scripts\main.lua:105: in function <...inaries\Win64\Mods\CurrentWorkingCheats\scripts\main.lua:101>
+No traceback
+[2024-01-21 22:26:51] Re-installing all mods
+[2024-01-21 22:26:51] Stopping mod 'ActorDumperMod' for uninstall
+[2024-01-21 22:26:51] Stopping mod 'BPModLoaderMod' for uninstall
+[2024-01-21 22:26:51] Stopping mod 'CheatManagerEnablerMod' for uninstall
+[2024-01-21 22:26:51] 	Unregistering hook by id 'ClientRestart#17' for mod CheatManagerEnablerMod
+[2024-01-21 22:26:51] 	Unregistering hook by id 'ClientRestart#18' for mod CheatManagerEnablerMod
+[2024-01-21 22:26:51] Stopping mod 'ConsoleCommandsMod' for uninstall
+[2024-01-21 22:26:51] Stopping mod 'ConsoleEnablerMod' for uninstall
+[2024-01-21 22:26:51] Stopping mod 'CurrentWorkingCheats' for uninstall
+[2024-01-21 22:26:51] Stopping mod 'Keybinds' for uninstall
+[2024-01-21 22:26:51] Stopping mod 'LineTraceMod' for uninstall
+[2024-01-21 22:26:51] Stopping mod 'SplitScreenMod' for uninstall
+[2024-01-21 22:26:51] Setting up mods...
+[2024-01-21 22:26:51] Cppsdk not present, cpp mods will not be loaded
+[2024-01-21 22:26:51] Starting mods (from mods.txt load order)...
+[2024-01-21 22:26:51] Starting Lua mod 'CheatManagerEnablerMod'
+[2024-01-21 22:26:51] [RegisterHook] Registered native hook (19, 20) for Function /Script/Engine.PlayerController:ClientRestart
+[2024-01-21 22:26:51] Mod 'ActorDumperMod' disabled in mods.txt.
+[2024-01-21 22:26:51] Mod 'ConsoleCommandsMod' disabled in mods.txt.
+[2024-01-21 22:26:51] Mod 'ConsoleEnablerMod' disabled in mods.txt.
+[2024-01-21 22:26:51] Mod 'SplitScreenMod' disabled in mods.txt.
+[2024-01-21 22:26:51] Mod 'LineTraceMod' disabled in mods.txt.
+[2024-01-21 22:26:51] Mod 'BPModLoaderMod' disabled in mods.txt.
+[2024-01-21 22:26:51] Starting Lua mod 'Keybinds'
+[2024-01-21 22:26:51] Starting mods (from enabled.txt, no defined load order)...
+[2024-01-21 22:26:51] Mod 'CurrentWorkingCheats' has enabled.txt, starting mod.
+[2024-01-21 22:26:51] Starting mods (from mods.txt load order)...
+[2024-01-21 22:26:51] Starting mods (from enabled.txt, no defined load order)...
+[2024-01-21 22:26:51] All mods re-installed
+[2024-01-21 22:26:53] [Lua::call_function] lua_pcall returned [process_lua_function] A function requiring userdata as param #1 was called without userdata at param #1
+stack traceback:
+	[C]: in field 'IsAnyClass'
+	...inaries\Win64\Mods\CurrentWorkingCheats\scripts\main.lua:105: in function <...inaries\Win64\Mods\CurrentWorkingCheats\scripts\main.lua:101>
+No traceback
+[2024-01-21 22:27:56] Re-installing all mods
+[2024-01-21 22:27:56] Stopping mod 'ActorDumperMod' for uninstall
+[2024-01-21 22:27:56] Stopping mod 'BPModLoaderMod' for uninstall
+[2024-01-21 22:27:56] Stopping mod 'CheatManagerEnablerMod' for uninstall
+[2024-01-21 22:27:56] 	Unregistering hook by id 'ClientRestart#19' for mod CheatManagerEnablerMod
+[2024-01-21 22:27:56] 	Unregistering hook by id 'ClientRestart#20' for mod CheatManagerEnablerMod
+[2024-01-21 22:27:56] Stopping mod 'ConsoleCommandsMod' for uninstall
+[2024-01-21 22:27:56] Stopping mod 'ConsoleEnablerMod' for uninstall
+[2024-01-21 22:27:56] Stopping mod 'CurrentWorkingCheats' for uninstall
+[2024-01-21 22:27:56] Stopping mod 'Keybinds' for uninstall
+[2024-01-21 22:27:56] Stopping mod 'LineTraceMod' for uninstall
+[2024-01-21 22:27:56] Stopping mod 'SplitScreenMod' for uninstall
+[2024-01-21 22:27:56] Setting up mods...
+[2024-01-21 22:27:56] Cppsdk not present, cpp mods will not be loaded
+[2024-01-21 22:27:56] Starting mods (from mods.txt load order)...
+[2024-01-21 22:27:56] Starting Lua mod 'CheatManagerEnablerMod'
+[2024-01-21 22:27:56] [RegisterHook] Registered native hook (21, 22) for Function /Script/Engine.PlayerController:ClientRestart
+[2024-01-21 22:27:56] Mod 'ActorDumperMod' disabled in mods.txt.
+[2024-01-21 22:27:56] Mod 'ConsoleCommandsMod' disabled in mods.txt.
+[2024-01-21 22:27:56] Mod 'ConsoleEnablerMod' disabled in mods.txt.
+[2024-01-21 22:27:56] Mod 'SplitScreenMod' disabled in mods.txt.
+[2024-01-21 22:27:56] Mod 'LineTraceMod' disabled in mods.txt.
+[2024-01-21 22:27:56] Mod 'BPModLoaderMod' disabled in mods.txt.
+[2024-01-21 22:27:56] Starting Lua mod 'Keybinds'
+[2024-01-21 22:27:56] Starting mods (from enabled.txt, no defined load order)...
+[2024-01-21 22:27:56] Mod 'CurrentWorkingCheats' has enabled.txt, starting mod.
+[2024-01-21 22:27:56] Starting mods (from mods.txt load order)...
+[2024-01-21 22:27:56] Starting mods (from enabled.txt, no defined load order)...
+[2024-01-21 22:27:56] All mods re-installed
+[2024-01-21 22:27:59] [Lua::call_function] lua_pcall returned Tried calling a member function but the UObject instance is nullptr
+
+stack traceback:
+	[C]: in method 'ForEachFunction'
+	...inaries\Win64\Mods\CurrentWorkingCheats\scripts\main.lua:47: in upvalue 'printClassMethods'
+	...inaries\Win64\Mods\CurrentWorkingCheats\scripts\main.lua:106: in function <...inaries\Win64\Mods\CurrentWorkingCheats\scripts\main.lua:101>
+No traceback
+[2024-01-21 22:28:48] Re-installing all mods
+[2024-01-21 22:28:48] Stopping mod 'ActorDumperMod' for uninstall
+[2024-01-21 22:28:48] Stopping mod 'BPModLoaderMod' for uninstall
+[2024-01-21 22:28:48] Stopping mod 'CheatManagerEnablerMod' for uninstall
+[2024-01-21 22:28:48] 	Unregistering hook by id 'ClientRestart#21' for mod CheatManagerEnablerMod
+[2024-01-21 22:28:48] 	Unregistering hook by id 'ClientRestart#22' for mod CheatManagerEnablerMod
+[2024-01-21 22:28:48] Stopping mod 'ConsoleCommandsMod' for uninstall
+[2024-01-21 22:28:48] Stopping mod 'ConsoleEnablerMod' for uninstall
+[2024-01-21 22:28:48] Stopping mod 'CurrentWorkingCheats' for uninstall
+[2024-01-21 22:28:48] Stopping mod 'Keybinds' for uninstall
+[2024-01-21 22:28:48] Stopping mod 'LineTraceMod' for uninstall
+[2024-01-21 22:28:48] Stopping mod 'SplitScreenMod' for uninstall
+[2024-01-21 22:28:48] Setting up mods...
+[2024-01-21 22:28:48] Cppsdk not present, cpp mods will not be loaded
+[2024-01-21 22:28:48] Starting mods (from mods.txt load order)...
+[2024-01-21 22:28:48] Starting Lua mod 'CheatManagerEnablerMod'
+[2024-01-21 22:28:48] [RegisterHook] Registered native hook (23, 24) for Function /Script/Engine.PlayerController:ClientRestart
+[2024-01-21 22:28:48] Mod 'ActorDumperMod' disabled in mods.txt.
+[2024-01-21 22:28:48] Mod 'ConsoleCommandsMod' disabled in mods.txt.
+[2024-01-21 22:28:48] Mod 'ConsoleEnablerMod' disabled in mods.txt.
+[2024-01-21 22:28:48] Mod 'SplitScreenMod' disabled in mods.txt.
+[2024-01-21 22:28:48] Mod 'LineTraceMod' disabled in mods.txt.
+[2024-01-21 22:28:48] Mod 'BPModLoaderMod' disabled in mods.txt.
+[2024-01-21 22:28:48] Starting Lua mod 'Keybinds'
+[2024-01-21 22:28:48] Starting mods (from enabled.txt, no defined load order)...
+[2024-01-21 22:28:48] Mod 'CurrentWorkingCheats' has enabled.txt, starting mod.
+[2024-01-21 22:28:48] Starting mods (from mods.txt load order)...
+[2024-01-21 22:28:48] Starting mods (from enabled.txt, no defined load order)...
+[2024-01-21 22:28:48] All mods re-installed
+[2024-01-21 22:28:51] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:DisplayHUD_Respawn[2024-01-21 22:28:51] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:HideHUD_ForDeath[2024-01-21 22:28:51] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:UpdateWorldHUDs[2024-01-21 22:28:51] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:OnUpdateLiftSlot[2024-01-21 22:28:51] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:HideLiftItemDisplay[2024-01-21 22:28:51] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:ShowLiftItemDisplay[2024-01-21 22:28:51] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:Setup Lift Item Event[2024-01-21 22:28:51] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:SetupHUD_Internal[2024-01-21 22:28:51] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:OnLoaded_39EEADC54AE57646EA72A79D911211B6[2024-01-21 22:28:51] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:OnLoaded_EF35A3894C280426B58FA0A0D5280930[2024-01-21 22:28:51] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:OnLoaded_01D7FBF3483366434C8293A197BFD965[2024-01-21 22:28:51] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:ReceiveTick[2024-01-21 22:28:51] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:Initialize[2024-01-21 22:28:51] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:ReceiveEndPlay[2024-01-21 22:28:51] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:AsyncSetupHUDEvent[2024-01-21 22:28:51] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:AsyncLoadAndCreateWidget[2024-01-21 22:28:51] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:OnDyingEnd[2024-01-21 22:28:51] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:OnRespawnPlayer[2024-01-21 22:28:51] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:BindGameOverUI[2024-01-21 22:28:51] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:ExecuteUbergraph_BP_PalHUD_InGame[2024-01-21 22:32:40] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:DisplayHUD_Respawn[2024-01-21 22:32:40] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:HideHUD_ForDeath[2024-01-21 22:32:40] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:UpdateWorldHUDs[2024-01-21 22:32:40] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:OnUpdateLiftSlot[2024-01-21 22:32:40] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:HideLiftItemDisplay[2024-01-21 22:32:40] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:ShowLiftItemDisplay[2024-01-21 22:32:40] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:Setup Lift Item Event[2024-01-21 22:32:40] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:SetupHUD_Internal[2024-01-21 22:32:40] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:OnLoaded_39EEADC54AE57646EA72A79D911211B6[2024-01-21 22:32:40] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:OnLoaded_EF35A3894C280426B58FA0A0D5280930[2024-01-21 22:32:40] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:OnLoaded_01D7FBF3483366434C8293A197BFD965[2024-01-21 22:32:40] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:ReceiveTick[2024-01-21 22:32:40] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:Initialize[2024-01-21 22:32:40] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:ReceiveEndPlay[2024-01-21 22:32:40] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:AsyncSetupHUDEvent[2024-01-21 22:32:40] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:AsyncLoadAndCreateWidget[2024-01-21 22:32:40] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:OnDyingEnd[2024-01-21 22:32:40] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:OnRespawnPlayer[2024-01-21 22:32:40] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:BindGameOverUI[2024-01-21 22:32:40] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:ExecuteUbergraph_BP_PalHUD_InGame[2024-01-21 22:35:50] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:DisplayHUD_Respawn[2024-01-21 22:35:50] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:HideHUD_ForDeath[2024-01-21 22:35:50] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:UpdateWorldHUDs[2024-01-21 22:35:50] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:OnUpdateLiftSlot[2024-01-21 22:35:50] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:HideLiftItemDisplay[2024-01-21 22:35:50] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:ShowLiftItemDisplay[2024-01-21 22:35:50] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:Setup Lift Item Event[2024-01-21 22:35:50] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:SetupHUD_Internal[2024-01-21 22:35:50] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:OnLoaded_39EEADC54AE57646EA72A79D911211B6[2024-01-21 22:35:50] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:OnLoaded_EF35A3894C280426B58FA0A0D5280930[2024-01-21 22:35:50] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:OnLoaded_01D7FBF3483366434C8293A197BFD965[2024-01-21 22:35:50] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:ReceiveTick[2024-01-21 22:35:50] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:Initialize[2024-01-21 22:35:50] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:ReceiveEndPlay[2024-01-21 22:35:50] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:AsyncSetupHUDEvent[2024-01-21 22:35:50] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:AsyncLoadAndCreateWidget[2024-01-21 22:35:50] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:OnDyingEnd[2024-01-21 22:35:50] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:OnRespawnPlayer[2024-01-21 22:35:50] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:BindGameOverUI[2024-01-21 22:35:50] [Lua] Function /Game/Pal/Blueprint/UI/BP_PalHUD_InGame.BP_PalHUD_InGame_C:ExecuteUbergraph_BP_PalHUD_InGame[2024-01-21 22:35:56] Re-installing all mods
+[2024-01-21 22:35:56] Stopping mod 'ActorDumperMod' for uninstall
+[2024-01-21 22:35:56] Stopping mod 'BPModLoaderMod' for uninstall
+[2024-01-21 22:35:56] Stopping mod 'CheatManagerEnablerMod' for uninstall
+[2024-01-21 22:35:56] 	Unregistering hook by id 'ClientRestart#23' for mod CheatManagerEnablerMod
+[2024-01-21 22:35:56] 	Unregistering hook by id 'ClientRestart#24' for mod CheatManagerEnablerMod
+[2024-01-21 22:35:56] Stopping mod 'ConsoleCommandsMod' for uninstall
+[2024-01-21 22:35:56] Stopping mod 'ConsoleEnablerMod' for uninstall
+[2024-01-21 22:35:56] Stopping mod 'CurrentWorkingCheats' for uninstall
+[2024-01-21 22:35:56] Stopping mod 'Keybinds' for uninstall
+[2024-01-21 22:35:56] Stopping mod 'LineTraceMod' for uninstall
+[2024-01-21 22:35:56] Stopping mod 'SplitScreenMod' for uninstall
+[2024-01-21 22:35:56] Setting up mods...
+[2024-01-21 22:35:56] Cppsdk not present, cpp mods will not be loaded
+[2024-01-21 22:35:56] Starting mods (from mods.txt load order)...
+[2024-01-21 22:35:56] Starting Lua mod 'CheatManagerEnablerMod'
+[2024-01-21 22:35:56] [RegisterHook] Registered native hook (25, 26) for Function /Script/Engine.PlayerController:ClientRestart
+[2024-01-21 22:35:56] Mod 'ActorDumperMod' disabled in mods.txt.
+[2024-01-21 22:35:56] Mod 'ConsoleCommandsMod' disabled in mods.txt.
+[2024-01-21 22:35:56] Mod 'ConsoleEnablerMod' disabled in mods.txt.
+[2024-01-21 22:35:56] Mod 'SplitScreenMod' disabled in mods.txt.
+[2024-01-21 22:35:56] Mod 'LineTraceMod' disabled in mods.txt.
+[2024-01-21 22:35:56] Mod 'BPModLoaderMod' disabled in mods.txt.
+[2024-01-21 22:35:56] Starting Lua mod 'Keybinds'
+[2024-01-21 22:35:56] Starting mods (from enabled.txt, no defined load order)...
+[2024-01-21 22:35:56] Mod 'CurrentWorkingCheats' has enabled.txt, starting mod.
+[2024-01-21 22:35:56] Starting mods (from mods.txt load order)...
+[2024-01-21 22:35:56] Starting mods (from enabled.txt, no defined load order)...
+[2024-01-21 22:35:56] All mods re-installed
