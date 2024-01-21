@@ -1,0 +1,439 @@
+[2024-01-21 21:47:32] Setting up mods...
+[2024-01-21 21:47:32] Cppsdk not present, cpp mods will not be loaded
+[2024-01-21 21:47:32] Starting mods (from mods.txt load order)...
+[2024-01-21 21:47:32] Starting mods (from enabled.txt, no defined load order)...
+[2024-01-21 21:47:32] Console created
+[2024-01-21 21:47:32] UE4SS - v2.5.1 Beta #0 - Git SHA #1481302
+[2024-01-21 21:47:32] WITH_CASE_PRESERVING_NAME: No
+
+[2024-01-21 21:47:32] No specific game configuration found, using default configuration file
+[2024-01-21 21:47:32] Config: C:\Users\thord\Desktop\Palworld\modding\Palworld hooking\Pal\Binaries\Win64\UE4SS-settings.ini
+
+[2024-01-21 21:47:32] root directory: C:\Users\thord\Desktop\Palworld\modding\Palworld hooking\Pal\Binaries\Win64
+[2024-01-21 21:47:32] working directory: C:\Users\thord\Desktop\Palworld\modding\Palworld hooking\Pal\Binaries\Win64
+[2024-01-21 21:47:32] game executable directory: C:\Users\thord\Desktop\Palworld\modding\Palworld hooking\Pal\Binaries\Win64
+[2024-01-21 21:47:32] mods directory: C:\Users\thord\Desktop\Palworld\modding\Palworld hooking\Pal\Binaries\Win64\Mods
+[2024-01-21 21:47:32] log directory: C:\Users\thord\Desktop\Palworld\modding\Palworld hooking\Pal\Binaries\Win64
+[2024-01-21 21:47:32] object dumper directory: C:\Users\thord\Desktop\Palworld\modding\Palworld hooking\Pal\Binaries\Win64
+
+
+[2024-01-21 21:47:32] Deserialized FName::ToString address: 0x7ff723d8ab60
+[2024-01-21 21:47:32] Deserialized StaticConstructObject_Internal address: 0x7ff723f22af0
+[2024-01-21 21:47:32] Deserialized FName::FName address: 0x7ff723d79a90
+[2024-01-21 21:47:32] Deserialized GUObjectArray address: 0x7ff7298570f0
+[2024-01-21 21:47:32] Deserialized GMalloc address: 0x249489fc4c0
+[2024-01-21 21:47:32] Need to construct: /Script/CoreUObject.Class
+[2024-01-21 21:47:32] Need to construct: /Script/CoreUObject
+[2024-01-21 21:47:32] Need to construct: /Script/CoreUObject.Struct
+[2024-01-21 21:47:32] Need to construct: /Script/Engine.Pawn
+[2024-01-21 21:47:32] Need to construct: /Script/Engine.Character
+[2024-01-21 21:47:32] Need to construct: /Script/Engine.Actor
+[2024-01-21 21:47:32] Need to construct: /Script/CoreUObject.Vector
+[2024-01-21 21:47:32] Need to construct: /Script/Engine.Default__DefaultPawn
+[2024-01-21 21:47:32] Need to construct: /Script/Engine.HitResult
+[2024-01-21 21:47:32] Need to construct: /Script/Engine.Default__MaterialExpression
+[2024-01-21 21:47:32] Need to construct: /Script/Engine.ActorComponent
+[2024-01-21 21:47:32] Need to construct: /Script/CoreUObject.OrientedBox
+[2024-01-21 21:47:32] Need to construct: /Script/Engine.MovementComponent
+[2024-01-21 21:47:32] Need to construct: /Script/Engine.HUD
+[2024-01-21 21:47:32] Need to construct: /Script/Engine.PlayerController
+[2024-01-21 21:47:32] Need to construct: /Script/Engine.PlayerCameraManager
+[2024-01-21 21:47:32] Need to construct: /Script/CoreUObject.EInterpCurveMode
+[2024-01-21 21:47:32] Need to construct: /Script/Engine.ENetRole
+[2024-01-21 21:47:32] Need to construct: /Script/MovieScene.MovieSceneEditorData
+[2024-01-21 21:47:32] Need to construct: /Script/UMG.Widget
+[2024-01-21 21:47:32] Need to construct: /Script/UMG.ComboBoxString
+[2024-01-21 21:47:32] Need to construct: /Script/CoreUObject.Interface
+[2024-01-21 21:47:32] Need to construct: /Script/CoreUObject.DynamicClass
+[2024-01-21 21:47:33] Constructed [1 / 23]: /Script/CoreUObject.Class
+[2024-01-21 21:47:33] Constructed [2 / 23]: /Script/CoreUObject
+[2024-01-21 21:47:33] Constructed [3 / 23]: /Script/CoreUObject.Struct
+[2024-01-21 21:47:33] Constructed [4 / 23]: /Script/Engine.Pawn
+[2024-01-21 21:47:33] Constructed [5 / 23]: /Script/Engine.Character
+[2024-01-21 21:47:33] Constructed [6 / 23]: /Script/Engine.Actor
+[2024-01-21 21:47:33] Constructed [7 / 23]: /Script/Engine.ActorComponent
+[2024-01-21 21:47:33] Constructed [8 / 23]: /Script/Engine.MovementComponent
+[2024-01-21 21:47:33] Constructed [9 / 23]: /Script/Engine.HUD
+[2024-01-21 21:47:33] Constructed [10 / 23]: /Script/Engine.PlayerController
+[2024-01-21 21:47:33] Constructed [11 / 23]: /Script/Engine.PlayerCameraManager
+[2024-01-21 21:47:33] Constructed [12 / 23]: /Script/UMG.Widget
+[2024-01-21 21:47:33] Constructed [13 / 23]: /Script/UMG.ComboBoxString
+[2024-01-21 21:47:33] Constructed [14 / 23]: /Script/CoreUObject.Interface
+[2024-01-21 21:47:33] Constructed [15 / 23]: /Script/CoreUObject.DynamicClass
+[2024-01-21 21:47:33] Constructed [16 / 23]: /Script/CoreUObject.Vector
+[2024-01-21 21:47:33] Constructed [17 / 23]: /Script/Engine.HitResult
+[2024-01-21 21:47:33] Constructed [18 / 23]: /Script/CoreUObject.OrientedBox
+[2024-01-21 21:47:33] Constructed [19 / 23]: /Script/CoreUObject.EInterpCurveMode
+[2024-01-21 21:47:33] Constructed [20 / 23]: /Script/Engine.ENetRole
+[2024-01-21 21:47:33] Constructed [21 / 23]: /Script/MovieScene.MovieSceneEditorData
+[2024-01-21 21:47:33] Constructed [22 / 23]: /Script/Engine.Default__DefaultPawn
+[2024-01-21 21:47:33] Constructed [23 / 23]: /Script/Engine.Default__MaterialExpression
+[2024-01-21 21:47:34] Constructed 23 of 23 objects
+[2024-01-21 21:47:34] ProcessInternal address: 0x7ff723f01500 <- Built-in
+[2024-01-21 21:47:34] ProcessLocalScriptFunction address: 0x7ff723f015b0 <- Built-in
+[2024-01-21 21:47:34] UnrealConfig.FExecVTableOffsetInLocalPlayer: 28
+[2024-01-21 21:47:34] Adding GUObjectArray listeners
+[2024-01-21 21:47:34] 
+##### MEMBER OFFSETS START #####
+
+[2024-01-21 21:47:34] UObjectBase::ClassPrivate = 0x10
+[2024-01-21 21:47:34] UObjectBase::bFindCameraComponentWhenViewTarget = 0x5A
+[2024-01-21 21:47:34] UObjectBase::InternalIndex = 0xC
+[2024-01-21 21:47:34] UObjectBase::AutoReceiveInput = 0x153
+[2024-01-21 21:47:34] UObjectBase::ObjectFlags = 0x8
+[2024-01-21 21:47:34] UObjectBase::OnEndCursorOver = 0x1D6
+[2024-01-21 21:47:34] UObjectBase::CustomTimeDilation = 0x64
+[2024-01-21 21:47:34] UObjectBase::NamePrivate = 0x18
+[2024-01-21 21:47:34] UObjectBase::DetachFence = 0x280
+[2024-01-21 21:47:34] UObjectBase::CreationTime = 0x158
+[2024-01-21 21:47:34] UObjectBase::bAllowTickBeforeBeginPlay = 0x5A
+[2024-01-21 21:47:34] UObjectBase::bForceNetAddressable = 0x59
+[2024-01-21 21:47:34] UObjectBase::InputPriority = 0x154
+[2024-01-21 21:47:34] UObjectBase::OuterPrivate = 0x20
+[2024-01-21 21:47:34] UObjectBase::OnInputTouchEnd = 0x1DA
+[2024-01-21 21:47:34] UObjectBase::bHasDeferredComponentRegistration = 0x5C
+[2024-01-21 21:47:34] UObjectBase::AttachmentReplication = 0x70
+[2024-01-21 21:47:34] UObjectBase::DefaultUpdateOverlapsMethodDuringLevelStreaming = 0x5F
+[2024-01-21 21:47:34] UObjectBase::InitialLifeSpan = 0x60
+[2024-01-21 21:47:34] UObjectBase::bAutoDestroyWhenFinished = 0x5A
+[2024-01-21 21:47:34] UObjectBase::Tags = 0x1C0
+[2024-01-21 21:47:34] UObjectBase::InputComponent = 0x160
+[2024-01-21 21:47:34] UObjectBase::OnTakePointDamage = 0x1D1
+[2024-01-21 21:47:34] UObjectBase::LastRenderTime = 0x17C
+[2024-01-21 21:47:34] UObjectBase::RemoteRole = 0x68
+[2024-01-21 21:47:34] UObjectBase::Layers = 0x1A8
+[2024-01-21 21:47:34] UObjectBase::MinNetUpdateFrequency = 0x174
+[2024-01-21 21:47:34] UObjectBase::TimerHandle_LifeSpanExpired = 0x1A0
+[2024-01-21 21:47:34] UObjectBase::OnTakeAnyDamage = 0x1D0
+[2024-01-21 21:47:34] UObjectBase::NetCullDistanceSquared = 0x168
+[2024-01-21 21:47:34] UObjectBase::OnActorEndOverlap = 0x1D4
+[2024-01-21 21:47:34] UObjectBase::NetDormancy = 0x151
+[2024-01-21 21:47:34] UObjectBase::NetDriverName = 0x148
+[2024-01-21 21:47:34] UObjectBase::NetTag = 0x16C
+[2024-01-21 21:47:34] UObjectBase::NetPriority = 0x178
+[2024-01-21 21:47:34] UObjectBase::PrimaryActorTick = 0x28
+[2024-01-21 21:47:34] UObjectBase::NetUpdateFrequency = 0x170
+[2024-01-21 21:47:34] UObjectBase::OnClicked = 0x1D7
+[2024-01-21 21:47:34] UObjectBase::OnActorBeginOverlap = 0x1D3
+[2024-01-21 21:47:34] UObjectBase::OnActorHit = 0x1DD
+[2024-01-21 21:47:34] UObjectBase::OnBeginCursorOver = 0x1D5
+[2024-01-21 21:47:34] UObjectBase::OnDestroyed = 0x1DE
+[2024-01-21 21:47:34] UObjectBase::OnInputTouchEnter = 0x1DB
+[2024-01-21 21:47:34] UObjectBase::OnEndPlay = 0x1DF
+[2024-01-21 21:47:34] UObjectBase::OnInputTouchBegin = 0x1D9
+[2024-01-21 21:47:34] UObjectBase::OnInputTouchLeave = 0x1DC
+[2024-01-21 21:47:34] UObjectBase::OnReleased = 0x1D8
+[2024-01-21 21:47:34] UObjectBase::OnTakeRadialDamage = 0x1D2
+[2024-01-21 21:47:34] UObjectBase::ParentComponent = 0x1B8
+[2024-01-21 21:47:34] UObjectBase::RayTracingGroupId = 0x6C
+[2024-01-21 21:47:34] UObjectBase::bAsyncPhysicsTickEnabled = 0x5D
+[2024-01-21 21:47:34] UObjectBase::ReplicatedComponentsInfo = 0x1F0
+[2024-01-21 21:47:34] UObjectBase::ReplicatedMovement = 0xD0
+[2024-01-21 21:47:34] UObjectBase::UpdateOverlapsMethodDuringLevelStreaming = 0x5E
+[2024-01-21 21:47:34] UObjectBase::ReplicatedSubObjects = 0x1E0
+[2024-01-21 21:47:34] UObjectBase::Role = 0x150
+[2024-01-21 21:47:34] UObjectBase::RootComponent = 0x198
+[2024-01-21 21:47:34] UObjectBase::SpawnCollisionHandlingMethod = 0x152
+[2024-01-21 21:47:34] UObjectBase::bNetStartup = 0x58
+[2024-01-21 21:47:34] UObjectBase::bActorIsBeingConstructed = 0x5D
+[2024-01-21 21:47:34] UObjectBase::bActorBeginningPlayFromLevelStreaming = 0x5C
+[2024-01-21 21:47:34] UObjectBase::bAllowReceiveTickEventOnDedicatedServer = 0x5B
+[2024-01-21 21:47:34] UObjectBase::bActorEnableCollision = 0x5C
+[2024-01-21 21:47:34] UObjectBase::bActorInitialized = 0x5C
+[2024-01-21 21:47:34] UObjectBase::bActorIsBeingDestroyed = 0x5D
+[2024-01-21 21:47:34] UObjectBase::bActorSeamlessTraveled = 0x5B
+[2024-01-21 21:47:34] UObjectBase::bActorWantsDestroyDuringBeginPlay = 0x5D
+[2024-01-21 21:47:34] UObjectBase::bAlwaysRelevant = 0x58
+[2024-01-21 21:47:34] UObjectBase::bBlockInput = 0x5A
+[2024-01-21 21:47:34] UObjectBase::bCallPreReplication = 0x58
+[2024-01-21 21:47:34] UObjectBase::bCallPreReplicationForReplay = 0x58
+[2024-01-21 21:47:34] UObjectBase::bCanBeDamaged = 0x5A
+[2024-01-21 21:47:34] UObjectBase::bCanBeInCluster = 0x5B
+[2024-01-21 21:47:34] UObjectBase::bCollideWhenPlacing = 0x5A
+[2024-01-21 21:47:34] UObjectBase::bHasRegisteredAllComponents = 0x5C
+[2024-01-21 21:47:34] UObjectBase::bEnableAutoLODGeneration = 0x5B
+[2024-01-21 21:47:34] UObjectBase::bExchangedRoles = 0x59
+[2024-01-21 21:47:34] UObjectBase::bGenerateOverlapEventsDuringLevelStreaming = 0x5A
+[2024-01-21 21:47:34] UObjectBase::bHasFinishedSpawning = 0x5C
+[2024-01-21 21:47:34] UObjectBase::bHidden = 0x58
+[2024-01-21 21:47:34] UObjectBase::bIgnoresOriginShifting = 0x5A
+[2024-01-21 21:47:34] UObjectBase::bIsEditorOnlyActor = 0x5B
+[2024-01-21 21:47:34] UObjectBase::bNetCheckedInitialPhysicsState = 0x5B
+[2024-01-21 21:47:34] UObjectBase::bNetLoadOnClient = 0x59
+[2024-01-21 21:47:34] UObjectBase::bNetTemporary = 0x58
+[2024-01-21 21:47:34] UObjectBase::bNetUseOwnerRelevancy = 0x59
+[2024-01-21 21:47:34] UObjectBase::bOnlyRelevantToOwner = 0x58
+[2024-01-21 21:47:34] UObjectBase::bRelevantForLevelBounds = 0x59
+[2024-01-21 21:47:34] UObjectBase::bRelevantForNetworkReplays = 0x59
+[2024-01-21 21:47:34] UObjectBase::bReplayRewindable = 0x59
+[2024-01-21 21:47:34] UObjectBase::bReplicateMovement = 0x58
+[2024-01-21 21:47:34] UObjectBase::bReplicateUsingRegisteredSubObjectList = 0x5B
+[2024-01-21 21:47:34] UObjectBase::bReplicates = 0x5B
+[2024-01-21 21:47:34] UObjectBase::bRunningUserConstructionScript = 0x5C
+[2024-01-21 21:47:34] UObjectBase::bTearOff = 0x59
+[2024-01-21 21:47:34] UObjectBase::bTickFunctionsRegistered = 0x5C
+[2024-01-21 21:47:34] UScriptStruct::StructFlags = 0xB0
+[2024-01-21 21:47:34] UScriptStruct::CppStructOps = 0xB8
+[2024-01-21 21:47:34] UScriptStruct::bPrepareCppStructOpsCompleted = 0xB4
+[2024-01-21 21:47:34] UScriptStruct::ICppStructOps::Alignment = 0xC
+[2024-01-21 21:47:34] UScriptStruct::ICppStructOps::Size = 0x8
+[2024-01-21 21:47:34] FField::ClassPrivate = 0x8
+[2024-01-21 21:47:34] FField::NamePrivate = 0x28
+[2024-01-21 21:47:34] FField::FlagsPrivate = 0x30
+[2024-01-21 21:47:34] FField::Next = 0x20
+[2024-01-21 21:47:34] FField::Owner = 0x10
+[2024-01-21 21:47:34] FOutputDevice::bAutoEmitLineTerminator = 0x9
+[2024-01-21 21:47:34] FOutputDevice::bSuppressEventTag = 0x8
+[2024-01-21 21:47:34] FEnumProperty::Enum = 0x80
+[2024-01-21 21:47:34] FEnumProperty::UnderlyingProp = 0x78
+[2024-01-21 21:47:34] UStruct::DestructorLink = 0x80
+[2024-01-21 21:47:34] UStruct::Children = 0x48
+[2024-01-21 21:47:34] UStruct::ChildProperties = 0x50
+[2024-01-21 21:47:34] UStruct::PostConstructLink = 0x88
+[2024-01-21 21:47:34] UStruct::UnresolvedScriptProperties = 0xA0
+[2024-01-21 21:47:34] UStruct::MinAlignment = 0x5C
+[2024-01-21 21:47:34] UStruct::PropertiesSize = 0x58
+[2024-01-21 21:47:34] UStruct::PropertyLink = 0x70
+[2024-01-21 21:47:34] UStruct::RefLink = 0x78
+[2024-01-21 21:47:34] UStruct::Script = 0x60
+[2024-01-21 21:47:34] UStruct::ScriptAndPropertyObjectReferences = 0x90
+[2024-01-21 21:47:34] UStruct::SuperStruct = 0x40
+[2024-01-21 21:47:34] UFunction::EventGraphCallOffset = 0xD0
+[2024-01-21 21:47:34] UFunction::EventGraphFunction = 0xC8
+[2024-01-21 21:47:34] UFunction::RPCId = 0xBA
+[2024-01-21 21:47:34] UFunction::FirstPropertyToInit = 0xC0
+[2024-01-21 21:47:34] UFunction::Func = 0xD8
+[2024-01-21 21:47:34] UFunction::FunctionFlags = 0xB0
+[2024-01-21 21:47:34] UFunction::NumParms = 0xB4
+[2024-01-21 21:47:34] UFunction::ParmsSize = 0xB6
+[2024-01-21 21:47:34] UFunction::RPCResponseId = 0xBC
+[2024-01-21 21:47:34] UFunction::ReturnValueOffset = 0xB8
+[2024-01-21 21:47:34] UField::Next = 0x28
+[2024-01-21 21:47:34] FProperty::ArrayDim = 0x38
+[2024-01-21 21:47:34] FProperty::DestructorLinkNext = 0x68
+[2024-01-21 21:47:34] FProperty::ElementSize = 0x3C
+[2024-01-21 21:47:34] FProperty::NextRef = 0x60
+[2024-01-21 21:47:34] FProperty::Offset_Internal = 0x4C
+[2024-01-21 21:47:34] FProperty::PostConstructLinkNext = 0x70
+[2024-01-21 21:47:34] FProperty::PropertyLinkNext = 0x58
+[2024-01-21 21:47:34] FProperty::PropertyFlags = 0x40
+[2024-01-21 21:47:34] FProperty::RepIndex = 0x48
+[2024-01-21 21:47:34] FProperty::RepNotifyFunc = 0x50
+[2024-01-21 21:47:34] UWorld::BlockTillLevelStreamingCompletedEpoch = 0x144
+[2024-01-21 21:47:34] UWorld::bAllowAudioPlayback = 0x13E
+[2024-01-21 21:47:34] UWorld::ActiveLevelCollectionIndex = 0x190
+[2024-01-21 21:47:34] UWorld::AudioTimeSeconds = 0x678
+[2024-01-21 21:47:34] UWorld::CommittedPersistentLevelName = 0x700
+[2024-01-21 21:47:34] UWorld::bInTick = 0x13B
+[2024-01-21 21:47:34] UWorld::CleanupWorldTag = 0x70C
+[2024-01-21 21:47:34] UWorld::LWILastAssignedUID = 0x258
+[2024-01-21 21:47:34] UWorld::BuildStreamingDataTimer = 0x448
+[2024-01-21 21:47:34] UWorld::PauseDelay = 0x688
+[2024-01-21 21:47:34] UWorld::CachedViewInfoRenderedLastFrame = 0x120
+[2024-01-21 21:47:34] UWorld::ContentBundleManager = 0x6D0
+[2024-01-21 21:47:34] UWorld::DeltaRealTimeSeconds = 0x680
+[2024-01-21 21:47:34] UWorld::bSupportsMakingInvisibleTransactionRequests = 0xDA
+[2024-01-21 21:47:34] UWorld::DeltaTimeSeconds = 0x684
+[2024-01-21 21:47:34] UWorld::bPlayersOnly = 0x13D
+[2024-01-21 21:47:34] UWorld::ExtraReferencedObjects = 0x68
+[2024-01-21 21:47:34] UWorld::PreparingLevelNames = 0x6F0
+[2024-01-21 21:47:34] UWorld::IsInBlockTillLevelStreamingCompleted = 0x140
+[2024-01-21 21:47:34] UWorld::bIsRunningConstructionScript = 0x13C
+[2024-01-21 21:47:34] UWorld::bAllowDeferredPhysicsStateCreation = 0x108
+[2024-01-21 21:47:34] UWorld::LastRenderTime = 0x130
+[2024-01-21 21:47:34] UWorld::LastTimeUnbuiltLightingWasEncountered = 0x658
+[2024-01-21 21:47:34] UWorld::bHasEverBeenInitialized = 0x13F
+[2024-01-21 21:47:34] UWorld::NextSwitchCountdown = 0x6C0
+[2024-01-21 21:47:34] UWorld::bMaterialParameterCollectionInstanceNeedsDeferredUpdate = 0x13F
+[2024-01-21 21:47:34] UWorld::RealTimeSeconds = 0x670
+[2024-01-21 21:47:34] UWorld::NextURL = 0x6E0
+[2024-01-21 21:47:34] UWorld::NumStreamingLevelsBeingLoaded = 0x6DA
+[2024-01-21 21:47:34] UWorld::bPostTickComponentUpdate = 0x13B
+[2024-01-21 21:47:34] UWorld::RequestedOriginLocation = 0x69C
+[2024-01-21 21:47:34] UWorld::OnWorldPartitionInitializedEvent = 0x4F8
+[2024-01-21 21:47:34] UWorld::OnWorldPartitionUninitializedEvent = 0x510
+[2024-01-21 21:47:34] UWorld::bAggressiveLOD = 0x13C
+[2024-01-21 21:47:34] UWorld::StreamingLevelsPrefix = 0xC8
+[2024-01-21 21:47:34] UWorld::OriginLocation = 0x690
+[2024-01-21 21:47:34] UWorld::PerModuleDataObjects = 0x78
+[2024-01-21 21:47:34] UWorld::bIsDefaultLevel = 0x13C
+[2024-01-21 21:47:34] UWorld::PlayerNum = 0x618
+[2024-01-21 21:47:34] UWorld::bDoDelayedUpdateCullDistanceVolumes = 0x13C
+[2024-01-21 21:47:34] UWorld::ServerStreamingLevelsVisibility = 0xC0
+[2024-01-21 21:47:34] UWorld::bIsLevelStreamingFrozen = 0x13B
+[2024-01-21 21:47:34] UWorld::StreamingVolumeUpdateDelay = 0x61C
+[2024-01-21 21:47:34] UWorld::bIsBuilt = 0x13B
+[2024-01-21 21:47:34] UWorld::TimeSeconds = 0x660
+[2024-01-21 21:47:34] UWorld::UnpausedTimeSeconds = 0x668
+[2024-01-21 21:47:34] UWorld::bActorsInitialized = 0x13C
+[2024-01-21 21:47:34] UWorld::bIsTearingDown = 0x13D
+[2024-01-21 21:47:34] UWorld::bAreConstraintsDirty = 0x13E
+[2024-01-21 21:47:34] UWorld::bBegunPlay = 0x13D
+[2024-01-21 21:47:34] UWorld::bDebugPauseExecution = 0x13D
+[2024-01-21 21:47:34] UWorld::bRequestedBlockOnAsyncLoading = 0x13C
+[2024-01-21 21:47:34] UWorld::bDropDetail = 0x13C
+[2024-01-21 21:47:34] UWorld::bMatchStarted = 0x13D
+[2024-01-21 21:47:34] UWorld::bIsCameraMoveableWhenPaused = 0x13E
+[2024-01-21 21:47:34] UWorld::bShouldSimulatePhysics = 0x13C
+[2024-01-21 21:47:34] UWorld::bIsWorldInitialized = 0x13B
+[2024-01-21 21:47:34] UWorld::bKismetScriptError = 0x13D
+[2024-01-21 21:47:34] UWorld::bMarkedObjectsPendingKill = 0x708
+[2024-01-21 21:47:34] UWorld::bPlayersOnlyPending = 0x13D
+[2024-01-21 21:47:34] UWorld::bRequiresHitProxies = 0x13E
+[2024-01-21 21:47:34] UWorld::bShouldForceUnloadStreamingLevels = 0x13E
+[2024-01-21 21:47:34] UWorld::bShouldForceVisibleStreamingLevels = 0x13E
+[2024-01-21 21:47:34] UWorld::bShouldTick = 0x13E
+[2024-01-21 21:47:34] UWorld::bStartup = 0x13D
+[2024-01-21 21:47:34] UWorld::bStreamingDataDirty = 0x13E
+[2024-01-21 21:47:34] UWorld::bSupportsMakingVisibleTransactionRequests = 0xD8
+[2024-01-21 21:47:34] UWorld::bTickNewlySpawned = 0x13B
+[2024-01-21 21:47:34] UWorld::bTriggerPostLoadMap = 0x13B
+[2024-01-21 21:47:34] UWorld::bWorldWasLoadedThisTick = 0x13B
+[2024-01-21 21:47:34] UClass::bLayoutChanging = 0xD1
+[2024-01-21 21:47:34] UClass::ClassWithin = 0xE0
+[2024-01-21 21:47:34] UClass::bCooked = 0xD0
+[2024-01-21 21:47:34] UClass::ClassConfigName = 0xE8
+[2024-01-21 21:47:34] UClass::ClassConstructor = 0xB0
+[2024-01-21 21:47:34] UClass::ClassDefaultObject = 0x110
+[2024-01-21 21:47:34] UClass::ClassFlags = 0xD4
+[2024-01-21 21:47:34] UClass::ClassUnique = 0xC8
+[2024-01-21 21:47:34] UClass::ClassVTableHelperCtorCaller = 0xB8
+[2024-01-21 21:47:34] UClass::CppClassStaticFunctions = 0xC0
+[2024-01-21 21:47:34] UClass::FirstOwnedClassRep = 0xCC
+[2024-01-21 21:47:34] UClass::Interfaces = 0x1D0
+[2024-01-21 21:47:34] UClass::NetFields = 0x100
+[2024-01-21 21:47:34] UClass::SparseClassData = 0x118
+[2024-01-21 21:47:34] UClass::SparseClassDataStruct = 0x120
+[2024-01-21 21:47:34] UEnum::CppForm = 0x50
+[2024-01-21 21:47:34] UEnum::CppType = 0x30
+[2024-01-21 21:47:34] UEnum::EnumDisplayNameFn = 0x58
+[2024-01-21 21:47:34] UEnum::Names = 0x40
+[2024-01-21 21:47:34] UEnum::EnumFlags_Internal = 0x54
+[2024-01-21 21:47:34] UEnum::EnumPackage = 0x60
+[2024-01-21 21:47:34] FObjectPropertyBase::PropertyClass = 0x78
+[2024-01-21 21:47:34] FDelegateProperty::SignatureFunction = 0x78
+[2024-01-21 21:47:34] FMulticastDelegateProperty::SignatureFunction = 0x78
+[2024-01-21 21:47:34] FSetProperty::ElementProp = 0x78
+[2024-01-21 21:47:34] FStructProperty::Struct = 0x78
+[2024-01-21 21:47:34] FArrayProperty::Inner = 0x78
+[2024-01-21 21:47:34] FMapProperty::KeyProp = 0x78
+[2024-01-21 21:47:34] FMapProperty::ValueProp = 0x80
+[2024-01-21 21:47:34] FBoolProperty::FieldMask = 0x7B
+[2024-01-21 21:47:34] FBoolProperty::ByteMask = 0x7A
+[2024-01-21 21:47:34] FBoolProperty::FieldSize = 0x78
+[2024-01-21 21:47:34] FBoolProperty::ByteOffset = 0x79
+[2024-01-21 21:47:34] FByteProperty::Enum = 0x78
+[2024-01-21 21:47:34] FClassProperty::MetaClass = 0x80
+[2024-01-21 21:47:34] FSoftClassProperty::MetaClass = 0x80
+[2024-01-21 21:47:34] FInterfaceProperty::InterfaceClass = 0x78
+[2024-01-21 21:47:34] FFieldPathProperty::PropertyClass = 0x78
+[2024-01-21 21:47:34] 
+##### MEMBER OFFSETS END #####
+
+[2024-01-21 21:47:34] m_shared_functions: 0x7ffa8f2d9300
+[2024-01-21 21:47:34] Enabling custom events
+[2024-01-21 21:47:34] Starting mods (from mods.txt load order)...
+[2024-01-21 21:47:34] Starting Lua mod 'CheatManagerEnablerMod'
+[2024-01-21 21:47:34] [RegisterHook] Registered native hook (1, 2) for Function /Script/Engine.PlayerController:ClientRestart
+[2024-01-21 21:47:34] Mod 'ActorDumperMod' disabled in mods.txt.
+[2024-01-21 21:47:34] Mod 'ConsoleCommandsMod' disabled in mods.txt.
+[2024-01-21 21:47:34] Mod 'ConsoleEnablerMod' disabled in mods.txt.
+[2024-01-21 21:47:34] Mod 'SplitScreenMod' disabled in mods.txt.
+[2024-01-21 21:47:34] Mod 'LineTraceMod' disabled in mods.txt.
+[2024-01-21 21:47:34] Mod 'BPModLoaderMod' disabled in mods.txt.
+[2024-01-21 21:47:34] Starting Lua mod 'Keybinds'
+[2024-01-21 21:47:34] Starting mods (from enabled.txt, no defined load order)...
+[2024-01-21 21:47:34] Mod 'LessCaps' has enabled.txt, starting mod.
+[2024-01-21 21:47:34] Event loop start
+[2024-01-21 21:47:54] [Lua] [CheatManager Creator]true[2024-01-21 21:47:54] [Lua] [CheatManager Creator]false[2024-01-21 21:47:54] [Lua] [CheatManager Creator]userdata[2024-01-21 21:47:54] [Lua] [CheatManager Creator] Constructed CheatManager [0x249C2A44F40]
+[2024-01-21 21:47:54] [Lua] [CheatManager Creator] Enabled CheatManager
+[2024-01-21 21:48:06] [Lua] F9 clicked[2024-01-21 21:48:06] [Lua] hud is invalid[2024-01-21 21:48:06] [Lua] F9 clicked[2024-01-21 21:48:06] [Lua] hud is invalid[2024-01-21 21:48:06] [Lua] F9 clicked[2024-01-21 21:48:06] [Lua] hud is invalid[2024-01-21 21:48:07] [Lua] F9 clicked[2024-01-21 21:48:07] [Lua] hud is invalid[2024-01-21 21:48:30] Re-installing all mods
+[2024-01-21 21:48:30] Stopping mod 'ActorDumperMod' for uninstall
+[2024-01-21 21:48:30] Stopping mod 'BPModLoaderMod' for uninstall
+[2024-01-21 21:48:30] Stopping mod 'CheatManagerEnablerMod' for uninstall
+[2024-01-21 21:48:30] 	Unregistering hook by id 'ClientRestart#1' for mod CheatManagerEnablerMod
+[2024-01-21 21:48:30] 	Unregistering hook by id 'ClientRestart#2' for mod CheatManagerEnablerMod
+[2024-01-21 21:48:30] Stopping mod 'ConsoleCommandsMod' for uninstall
+[2024-01-21 21:48:30] Stopping mod 'ConsoleEnablerMod' for uninstall
+[2024-01-21 21:48:30] Stopping mod 'Keybinds' for uninstall
+[2024-01-21 21:48:30] Stopping mod 'LessCaps' for uninstall
+[2024-01-21 21:48:30] Stopping mod 'LineTraceMod' for uninstall
+[2024-01-21 21:48:30] Stopping mod 'RareSpawn' for uninstall
+[2024-01-21 21:48:30] Stopping mod 'SplitScreenMod' for uninstall
+[2024-01-21 21:48:30] Setting up mods...
+[2024-01-21 21:48:30] Cppsdk not present, cpp mods will not be loaded
+[2024-01-21 21:48:30] Starting mods (from mods.txt load order)...
+[2024-01-21 21:48:30] Starting Lua mod 'CheatManagerEnablerMod'
+[2024-01-21 21:48:30] [RegisterHook] Registered native hook (3, 4) for Function /Script/Engine.PlayerController:ClientRestart
+[2024-01-21 21:48:30] Mod 'ActorDumperMod' disabled in mods.txt.
+[2024-01-21 21:48:30] Mod 'ConsoleCommandsMod' disabled in mods.txt.
+[2024-01-21 21:48:30] Mod 'ConsoleEnablerMod' disabled in mods.txt.
+[2024-01-21 21:48:30] Mod 'SplitScreenMod' disabled in mods.txt.
+[2024-01-21 21:48:30] Mod 'LineTraceMod' disabled in mods.txt.
+[2024-01-21 21:48:30] Mod 'BPModLoaderMod' disabled in mods.txt.
+[2024-01-21 21:48:30] Starting Lua mod 'Keybinds'
+[2024-01-21 21:48:30] Starting mods (from enabled.txt, no defined load order)...
+[2024-01-21 21:48:30] Mod 'LessCaps' has enabled.txt, starting mod.
+[2024-01-21 21:48:30] Starting mods (from mods.txt load order)...
+[2024-01-21 21:48:30] Starting mods (from enabled.txt, no defined load order)...
+[2024-01-21 21:48:30] All mods re-installed
+[2024-01-21 21:48:34] [Lua] F9 clicked[2024-01-21 21:48:34] [Lua] hud is invalid[2024-01-21 21:48:35] [Lua] F9 clicked[2024-01-21 21:48:35] [Lua] hud is invalid[2024-01-21 21:48:35] [Lua] F9 clicked[2024-01-21 21:48:35] [Lua] hud is invalid[2024-01-21 21:48:35] [Lua] F9 clicked[2024-01-21 21:48:35] [Lua] hud is invalid[2024-01-21 21:49:18] Re-installing all mods
+[2024-01-21 21:49:18] Stopping mod 'ActorDumperMod' for uninstall
+[2024-01-21 21:49:18] Stopping mod 'BPModLoaderMod' for uninstall
+[2024-01-21 21:49:18] Stopping mod 'CheatManagerEnablerMod' for uninstall
+[2024-01-21 21:49:18] 	Unregistering hook by id 'ClientRestart#3' for mod CheatManagerEnablerMod
+[2024-01-21 21:49:18] 	Unregistering hook by id 'ClientRestart#4' for mod CheatManagerEnablerMod
+[2024-01-21 21:49:18] Stopping mod 'ConsoleCommandsMod' for uninstall
+[2024-01-21 21:49:18] Stopping mod 'ConsoleEnablerMod' for uninstall
+[2024-01-21 21:49:18] Stopping mod 'Keybinds' for uninstall
+[2024-01-21 21:49:18] Stopping mod 'LessCaps' for uninstall
+[2024-01-21 21:49:18] Stopping mod 'LineTraceMod' for uninstall
+[2024-01-21 21:49:18] Stopping mod 'RareSpawn' for uninstall
+[2024-01-21 21:49:18] Stopping mod 'SplitScreenMod' for uninstall
+[2024-01-21 21:49:18] Setting up mods...
+[2024-01-21 21:49:18] Cppsdk not present, cpp mods will not be loaded
+[2024-01-21 21:49:18] Starting mods (from mods.txt load order)...
+[2024-01-21 21:49:18] Starting Lua mod 'CheatManagerEnablerMod'
+[2024-01-21 21:49:18] [RegisterHook] Registered native hook (5, 6) for Function /Script/Engine.PlayerController:ClientRestart
+[2024-01-21 21:49:18] Mod 'ActorDumperMod' disabled in mods.txt.
+[2024-01-21 21:49:18] Mod 'ConsoleCommandsMod' disabled in mods.txt.
+[2024-01-21 21:49:18] Mod 'ConsoleEnablerMod' disabled in mods.txt.
+[2024-01-21 21:49:18] Mod 'SplitScreenMod' disabled in mods.txt.
+[2024-01-21 21:49:18] Mod 'LineTraceMod' disabled in mods.txt.
+[2024-01-21 21:49:18] Mod 'BPModLoaderMod' disabled in mods.txt.
+[2024-01-21 21:49:18] Starting Lua mod 'Keybinds'
+[2024-01-21 21:49:18] Starting mods (from enabled.txt, no defined load order)...
+[2024-01-21 21:49:18] Mod 'LessCaps' has enabled.txt, starting mod.
+[2024-01-21 21:49:18] Starting mods (from mods.txt load order)...
+[2024-01-21 21:49:18] Starting mods (from enabled.txt, no defined load order)...
+[2024-01-21 21:49:18] All mods re-installed
+[2024-01-21 21:49:20] [Lua] F9 clicked[2024-01-21 21:49:21] [Lua] hud is invalid[2024-01-21 21:49:21] [Lua] F9 clicked[2024-01-21 21:49:22] [Lua] hud is invalid[2024-01-21 21:49:22] [Lua] F9 clicked[2024-01-21 21:49:22] [Lua] hud is invalid[2024-01-21 21:49:22] [Lua] F9 clicked[2024-01-21 21:49:22] [Lua] hud is invalid[2024-01-21 21:49:22] [Lua] F9 clicked[2024-01-21 21:49:22] [Lua] hud is invalid[2024-01-21 21:52:14] Re-installing all mods
+[2024-01-21 21:52:14] Stopping mod 'ActorDumperMod' for uninstall
+[2024-01-21 21:52:14] Stopping mod 'BPModLoaderMod' for uninstall
+[2024-01-21 21:52:14] Stopping mod 'CheatManagerEnablerMod' for uninstall
+[2024-01-21 21:52:14] 	Unregistering hook by id 'ClientRestart#5' for mod CheatManagerEnablerMod
+[2024-01-21 21:52:14] 	Unregistering hook by id 'ClientRestart#6' for mod CheatManagerEnablerMod
+[2024-01-21 21:52:14] Stopping mod 'ConsoleCommandsMod' for uninstall
+[2024-01-21 21:52:14] Stopping mod 'ConsoleEnablerMod' for uninstall
+[2024-01-21 21:52:14] Stopping mod 'Keybinds' for uninstall
+[2024-01-21 21:52:14] Stopping mod 'LessCaps' for uninstall
+[2024-01-21 21:52:14] Stopping mod 'LineTraceMod' for uninstall
+[2024-01-21 21:52:14] Stopping mod 'RareSpawn' for uninstall
+[2024-01-21 21:52:14] Stopping mod 'SplitScreenMod' for uninstall
+[2024-01-21 21:52:14] Setting up mods...
+[2024-01-21 21:52:14] Cppsdk not present, cpp mods will not be loaded
+[2024-01-21 21:52:14] Starting mods (from mods.txt load order)...
+[2024-01-21 21:52:14] Starting Lua mod 'CheatManagerEnablerMod'
+[2024-01-21 21:52:14] [RegisterHook] Registered native hook (7, 8) for Function /Script/Engine.PlayerController:ClientRestart
+[2024-01-21 21:52:14] Mod 'ActorDumperMod' disabled in mods.txt.
+[2024-01-21 21:52:14] Mod 'ConsoleCommandsMod' disabled in mods.txt.
+[2024-01-21 21:52:14] Mod 'ConsoleEnablerMod' disabled in mods.txt.
+[2024-01-21 21:52:14] Mod 'SplitScreenMod' disabled in mods.txt.
+[2024-01-21 21:52:14] Mod 'LineTraceMod' disabled in mods.txt.
+[2024-01-21 21:52:14] Mod 'BPModLoaderMod' disabled in mods.txt.
+[2024-01-21 21:52:14] Starting Lua mod 'Keybinds'
+[2024-01-21 21:52:14] Starting mods (from enabled.txt, no defined load order)...
+[2024-01-21 21:52:14] Mod 'LessCaps' has enabled.txt, starting mod.
+[2024-01-21 21:52:14] Starting mods (from mods.txt load order)...
+[2024-01-21 21:52:14] Starting mods (from enabled.txt, no defined load order)...
+[2024-01-21 21:52:14] All mods re-installed
