@@ -1,0 +1,32 @@
+---@meta
+
+---@class UWBP_Title_WorldSelect_CreateWorld_ListContent_C : UUserWidget
+---@field UberGraphFrame FPointerToUberGraphFrame
+---@field Anm_Select UWidgetAnimation
+---@field Anm_NormalToFocus UWidgetAnimation
+---@field IconPlus UImage
+---@field Text_WorldSettings_4 UBP_PalTextBlock_C
+---@field WBP_PalInvisibleButton UWBP_PalInvisibleButton_C
+---@field OnClicked FWBP_Title_WorldSelect_CreateWorld_ListContent_COnClicked
+---@field BindedSaveDirectoryName FString
+---@field MsgId FDataTableRowHandle
+UWBP_Title_WorldSelect_CreateWorld_ListContent_C = {}
+
+function UWBP_Title_WorldSelect_CreateWorld_ListContent_C:ToMaxSaveDataMode() end
+---@param DirectoryName FString
+function UWBP_Title_WorldSelect_CreateWorld_ListContent_C:GetBindedSaveDirectoryName(DirectoryName) end
+---@param SaveDirectoryName FString
+---@param DisplayData FPalUILocalWorldDisplayData
+function UWBP_Title_WorldSelect_CreateWorld_ListContent_C:SetupByLocalWorldDisplayData(SaveDirectoryName, DisplayData) end
+---@param Button UCommonButtonBase
+function UWBP_Title_WorldSelect_CreateWorld_ListContent_C:BndEvt__WBP_Title_WorldSelect_ListContent_WBP_PalInvisibleButton_K2Node_ComponentBoundEvent_0_CommonButtonBaseClicked__DelegateSignature(Button) end
+---@param Button UCommonButtonBase
+function UWBP_Title_WorldSelect_CreateWorld_ListContent_C:BndEvt__WBP_Title_WorldSelect_ListContent_WBP_PalInvisibleButton_K2Node_ComponentBoundEvent_1_CommonButtonBaseClicked__DelegateSignature(Button) end
+---@param Button UCommonButtonBase
+function UWBP_Title_WorldSelect_CreateWorld_ListContent_C:BndEvt__WBP_Title_WorldSelect_ListContent_WBP_PalInvisibleButton_K2Node_ComponentBoundEvent_2_CommonButtonBaseClicked__DelegateSignature(Button) end
+---@param EntryPoint int32
+function UWBP_Title_WorldSelect_CreateWorld_ListContent_C:ExecuteUbergraph_WBP_Title_WorldSelect_CreateWorld_ListContent(EntryPoint) end
+---@param Widget UWBP_Title_WorldSelect_CreateWorld_ListContent_C
+function UWBP_Title_WorldSelect_CreateWorld_ListContent_C:OnClicked__DelegateSignature(Widget) end
+
+

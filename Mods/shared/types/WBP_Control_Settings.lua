@@ -1,0 +1,72 @@
+---@meta
+
+---@class UWBP_Control_Settings_C : UUserWidget
+---@field UberGraphFrame FPointerToUberGraphFrame
+---@field VerticalBox_GP UVerticalBox
+---@field VerticalBox_KM UVerticalBox
+---@field WBP_OptionSettings_AIM UWBP_OptionSettings_ListContent_C
+---@field WBP_OptionSettings_Dash UWBP_OptionSettings_ListContent_C
+---@field WBP_OptionSettings_GP_AIM UWBP_OptionSettings_ListContent_C
+---@field WBP_OptionSettings_GP_Dash UWBP_OptionSettings_ListContent_C
+---@field WBP_OptionSettings_HideChat UWBP_OptionSettings_ListContent_C
+---@field WBP_OptionSettings_LStick_Threshold UWBP_OptionSettings_ListContent_C
+---@field WBP_OptionSettings_RStick_Sensitivity UWBP_OptionSettings_ListContent_C
+---@field WBP_OptionSettings_RStick_Threshold UWBP_OptionSettings_ListContent_C
+---@field WBP_OptionSettings_RStick_X UWBP_OptionSettings_ListContent_C
+---@field WBP_OptionSettings_RStick_Y UWBP_OptionSettings_ListContent_C
+---@field WBP_OptionSettings_Sensitivity UWBP_OptionSettings_ListContent_C
+---@field WBP_OptionSettings_Vibration UWBP_OptionSettings_ListContent_C
+---@field WBP_OptionSettings_X UWBP_OptionSettings_ListContent_C
+---@field WBP_OptionSettings_Y UWBP_OptionSettings_ListContent_C
+---@field AudioSettingCache FPalOptionAudioSettings
+---@field LevelMsgIds TArray<FDataTableRowHandle>
+---@field SomethingChanged boolean
+---@field KeyboardSettingCache FPalOptionKeyboardSettings
+---@field LocalStaticSettingCache FPalOptionLocalStaticSettings
+---@field PadSettingCache FPalOptionPadSettings
+---@field VerticalBoxs TArray<UVerticalBox>
+---@field FirstRows TArray<UWBP_PalCommonButtonBase_C>
+---@field Current int32
+UWBP_Control_Settings_C = {}
+
+---@param Target UWidget
+function UWBP_Control_Settings_C:GetDesiredFocusTarget(Target) end
+function UWBP_Control_Settings_C:Construct() end
+function UWBP_Control_Settings_C:ApplySettings() end
+function UWBP_Control_Settings_C:SetDefault() end
+---@param Next boolean
+function UWBP_Control_Settings_C:SwitchTab(Next) end
+---@param Index int32
+function UWBP_Control_Settings_C:SwitchPanel(Index) end
+---@param IsOn boolean
+function UWBP_Control_Settings_C:OnDashChanged(IsOn) end
+---@param Value double
+function UWBP_Control_Settings_C:OnMouseSensiChanged(Value) end
+---@param Value double
+function UWBP_Control_Settings_C:OnMouseAIMChanged(Value) end
+---@param IsOn boolean
+function UWBP_Control_Settings_C:OnMouseYChanged(IsOn) end
+---@param IsOn boolean
+function UWBP_Control_Settings_C:OnMouseXChanged(IsOn) end
+---@param IsOn boolean
+function UWBP_Control_Settings_C:OnGPDashChanged(IsOn) end
+---@param Value double
+function UWBP_Control_Settings_C:OnGPAimChanged(Value) end
+---@param Value double
+function UWBP_Control_Settings_C:OnRStickThreChanged(Value) end
+---@param Value double
+function UWBP_Control_Settings_C:OnLStickThreChanged(Value) end
+---@param Value double
+function UWBP_Control_Settings_C:OnRStickSensiChanged(Value) end
+---@param IsOn boolean
+function UWBP_Control_Settings_C:OnRStickYChanged(IsOn) end
+---@param IsOn boolean
+function UWBP_Control_Settings_C:OnRStickXChanged(IsOn) end
+---@param IsOn boolean
+function UWBP_Control_Settings_C:OnVibChanged(IsOn) end
+---@param IsOn boolean
+function UWBP_Control_Settings_C:OnHideChatChanged(IsOn) end
+---@param EntryPoint int32
+function UWBP_Control_Settings_C:ExecuteUbergraph_WBP_Control_Settings(EntryPoint) end
+
+

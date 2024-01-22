@@ -1,0 +1,14 @@
+---@meta
+
+---@class FF_NPCOnePointSpawnInfo
+---@field NPCName_20_49D436044BDF9AB5328F69A3028EB5ED FName
+---@field UniqueName_23_C5975EAD4D0039A24B86139AA5D04F66 FName
+---@field Transform_2_38D8D0144FC1C0FB041C08AFE43B4A56 FTransform
+---@field OverrideControllerClass_15_6CC42151411B4921090B749ADA0E063F TSubclassOf<ABP_NPCAIController_C>
+---@field OverrideDefaultActionClass_16_698E88C544CC5063FF6DE691F6BEA5E9 TSubclassOf<UPalAIActionBase>
+---@field OverrideLevel_17_248ED7A04C24B868F231F38B18A56DF2 int32
+---@field PathWalk_25_B786601A4A4C791196C63BAC2D2772DF FF_NPC_PathWalkArray
+FF_NPCOnePointSpawnInfo = {}
+
+
+

@@ -1,0 +1,77 @@
+---@meta
+
+---@class UWBP_PalStorageMenu_C : UPalUIPalBoxBase
+---@field UberGraphFrame FPointerToUberGraphFrame
+---@field Default_In UWidgetAnimation
+---@field WBP_IngameMenu_PalBox UWBP_IngameMenu_PalBox_C
+---@field Model UBP_UIPalStorageManageModel_C
+---@field nextBoxInput FPalDataTableRowName_UIInputAction
+---@field prevBoxInput FPalDataTableRowName_UIInputAction
+---@field TitleMsgID FDataTableRowHandle
+---@field loosePalCheckMsgId FDataTableRowHandle
+---@field CachedLooseSlot TSoftObjectPtr<UPalIndividualCharacterSlot>
+---@field hoverdSlotType EPalBoxHoveredSlotType::Type
+---@field prevCursorShortcutInput FPalDataTableRowName_UIInputAction
+---@field nextCursorShortcutInput FPalDataTableRowName_UIInputAction
+---@field SendSlotInput FPalDataTableRowName_UIInputAction
+---@field SendSlotInputHandle FPalUIActionBindData
+---@field ViewDetailInputHandle FPalUIActionBindData
+---@field CachedLastHoveredSlot UPalIndividualCharacterSlot
+---@field TabActionName FName
+---@field ViewDetailInput FPalDataTableRowName_UIInputAction
+UWBP_PalStorageMenu_C = {}
+
+---@param Slot UPalIndividualCharacterSlot
+---@param PressType EPalItemSlotPressType
+function UWBP_PalStorageMenu_C:SelectSlot(Slot, PressType) end
+function UWBP_PalStorageMenu_C:OnViewDetailInput() end
+function UWBP_PalStorageMenu_C:OnSendSlotInput() end
+function UWBP_PalStorageMenu_C:UnregisterPalOperateInput() end
+function UWBP_PalStorageMenu_C:RegisterPalOperateInput() end
+function UWBP_PalStorageMenu_C:OnCursorShortcutNext() end
+function UWBP_PalStorageMenu_C:OnCursorShortcutPrev() end
+---@return UWidget
+function UWBP_PalStorageMenu_C:BP_GetDesiredFocusTarget() end
+function UWBP_PalStorageMenu_C:RegisterStaticActionInput() end
+---@param bResult boolean
+function UWBP_PalStorageMenu_C:OnRecieveLostDialogResponse(bResult) end
+---@param Slot UPalIndividualCharacterSlot
+function UWBP_PalStorageMenu_C:CheckLoosePal(Slot) end
+function UWBP_PalStorageMenu_C:Setup() end
+function UWBP_PalStorageMenu_C:OnSetup() end
+---@param slotList TArray<UPalIndividualCharacterSlot>
+function UWBP_PalStorageMenu_C:OnUpdatePageWorkerList(slotList) end
+---@param nowPage int32
+---@param slotList TArray<UPalIndividualCharacterSlot>
+function UWBP_PalStorageMenu_C:OnUpdatePagePalBoxList(nowPage, slotList) end
+---@param Slot UPalIndividualCharacterSlot
+---@param PressType EPalItemSlotPressType
+function UWBP_PalStorageMenu_C:BndEvt__WBP_PalStorageMenu_WBP_IngameMenu_PalBox_K2Node_ComponentBoundEvent_4_OnClickedPalBoxPal__DelegateSignature(Slot, PressType) end
+---@param targetSlot UPalIndividualCharacterSlot
+function UWBP_PalStorageMenu_C:BndEvt__WBP_PalStorageMenu_WBP_IngameMenu_PalBox_K2Node_ComponentBoundEvent_5_OnClickedPartySlot__DelegateSignature(targetSlot) end
+---@param Slot UPalIndividualCharacterSlot
+---@param PressType EPalItemSlotPressType
+function UWBP_PalStorageMenu_C:BndEvt__WBP_PalStorageMenu_WBP_IngameMenu_PalBox_K2Node_ComponentBoundEvent_7_OnClickedBaseCampPal__DelegateSignature(Slot, PressType) end
+function UWBP_PalStorageMenu_C:BndEvt__WBP_PalStorageMenu_WBP_IngameMenu_PalBox_K2Node_ComponentBoundEvent_6_OnClickedPalBoxNextPage__DelegateSignature() end
+function UWBP_PalStorageMenu_C:BndEvt__WBP_PalStorageMenu_WBP_IngameMenu_PalBox_K2Node_ComponentBoundEvent_8_OnClickedPalBoxPrevPage__DelegateSignature() end
+function UWBP_PalStorageMenu_C:BndEvt__WBP_PalStorageMenu_WBP_IngameMenu_PalBox_K2Node_ComponentBoundEvent_9_OnClickedCloseButton__DelegateSignature() end
+---@param Slot UPalIndividualCharacterSlot
+function UWBP_PalStorageMenu_C:BndEvt__WBP_PalStorageMenu_WBP_IngameMenu_PalBox_K2Node_ComponentBoundEvent_10_OnAnySlotHovered__DelegateSignature(Slot) end
+function UWBP_PalStorageMenu_C:BndEvt__WBP_PalStorageMenu_WBP_IngameMenu_PalBox_K2Node_ComponentBoundEvent_11_OnClickedLooseButton__DelegateSignature() end
+---@param Slot UPalIndividualCharacterSlot
+function UWBP_PalStorageMenu_C:BndEvt__WBP_PalStorageMenu_WBP_IngameMenu_PalBox_K2Node_ComponentBoundEvent_0_OnHoveredPartySlot__DelegateSignature(Slot) end
+---@param Slot UPalIndividualCharacterSlot
+function UWBP_PalStorageMenu_C:BndEvt__WBP_PalStorageMenu_WBP_IngameMenu_PalBox_K2Node_ComponentBoundEvent_1_OnHoveredBoxSlot__DelegateSignature(Slot) end
+---@param Slot UPalIndividualCharacterSlot
+function UWBP_PalStorageMenu_C:BndEvt__WBP_PalStorageMenu_WBP_IngameMenu_PalBox_K2Node_ComponentBoundEvent_2_OnHoveredWorkerSlot__DelegateSignature(Slot) end
+function UWBP_PalStorageMenu_C:BndEvt__WBP_PalStorageMenu_WBP_IngameMenu_PalBox_K2Node_ComponentBoundEvent_3_OnAnySlotUnhovered__DelegateSignature() end
+---@param Slot UPalIndividualCharacterSlot
+function UWBP_PalStorageMenu_C:BndEvt__WBP_PalStorageMenu_WBP_IngameMenu_PalBox_K2Node_ComponentBoundEvent_12_OnRightClickedBoxSlot__DelegateSignature(Slot) end
+---@param Slot UPalIndividualCharacterSlot
+function UWBP_PalStorageMenu_C:BndEvt__WBP_PalStorageMenu_WBP_IngameMenu_PalBox_K2Node_ComponentBoundEvent_13_OnRightClickedWorkerSlot__DelegateSignature(Slot) end
+---@param SortType EPalCharacterContainerSortType
+function UWBP_PalStorageMenu_C:BndEvt__WBP_PalStorageMenu_WBP_IngameMenu_PalBox_K2Node_ComponentBoundEvent_14_OnSelectedSortType__DelegateSignature(SortType) end
+---@param EntryPoint int32
+function UWBP_PalStorageMenu_C:ExecuteUbergraph_WBP_PalStorageMenu(EntryPoint) end
+
+

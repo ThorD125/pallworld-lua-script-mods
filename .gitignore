@@ -3,7 +3,9 @@
 !.gitignore
 !readme.md
 !*/
+!Mods/*
 !Mods/*/*
+!Mods/*/*/*
 !UE4SS-settings.ini
 !package.json
 !xinput1_3.dll

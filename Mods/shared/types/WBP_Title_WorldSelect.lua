@@ -1,0 +1,151 @@
+---@meta
+
+---@class UWBP_Title_WorldSelect_C : UUserWidget
+---@field UberGraphFrame FPointerToUberGraphFrame
+---@field Anm_Multi_OpenMenu UWidgetAnimation
+---@field Anm_Solo_OpenMenu UWidgetAnimation
+---@field Anm_WorldSearchTextColor UWidgetAnimation
+---@field Anm_MultiMode UWidgetAnimation
+---@field Anm_SoloMode UWidgetAnimation
+---@field Canvas_JoinServer UCanvasPanel
+---@field Canvas_WorldMenu UCanvasPanel
+---@field EditableTextBox_JoinByIP UEditableTextBox
+---@field EditableTextBox_ServerSearch UEditableTextBox
+---@field HorizontalBoxJoinByIP UCanvasPanel
+---@field HorizontalBoxRegion UHorizontalBox
+---@field HorizontalBoxWorldSearch UCanvasPanel
+---@field HorizontalBoxWorldSelectHead_LocalWorldList UHorizontalBox
+---@field HorizontalBoxWorldSelectHead_ServerList UHorizontalBox
+---@field Image UImage
+---@field Image_1 UImage
+---@field Image_22 UImage
+---@field Image_43 UImage
+---@field Overlay_OpenDirectory UOverlay
+---@field RequestLoading UCircularThrobber
+---@field VersionIgnoreCheckbox UCheckBox
+---@field WBP_JoinByIPButton UWBP_GuildHeadButton_C
+---@field WBP_NextButton UWBP_GuildHeadButton_C
+---@field WBP_PalCommonScrollList UWBP_PalCommonScrollList_C
+---@field WBP_PalInvisibleButton_OpenDirectory UWBP_PalInvisibleButton_C
+---@field WBP_SearchButton UWBP_GuildHeadButton_C
+---@field WBP_SortoComboBox UWBP_GuildHeadButton_C
+---@field WBP_SortoComboBox_Region UWBP_GuildHeadButton_C
+---@field WBP_Title_SettingsButton_DeleteCharacter UWBP_Title_SettingsButton_C
+---@field WBP_Title_SettingsButton_DeleteWorld UWBP_Title_SettingsButton_C
+---@field WBP_Title_SettingsButton_Start UWBP_Title_SettingsButton_C
+---@field WBP_Title_SettingsButton_WorldSetting UWBP_Title_SettingsButton_C
+---@field WBP_Title_WorldSelectButton_ServerList_Community UWBP_Title_WorldSelectButton_C
+---@field WBP_Title_WorldSelectButton_ServerList_Help_Server UWBP_Title_WorldSelectButton_C
+---@field WBP_Title_WorldSelectButton_ServerList_History UWBP_Title_WorldSelectButton_C
+---@field WBP_Title_WorldSelectButton_ServerList_Official UWBP_Title_WorldSelectButton_C
+---@field WBP_Title_WorldSelectButton_ServerList_StatusPage UWBP_Title_WorldSelectButton_C
+---@field OnClickedWorldButton FWBP_Title_WorldSelect_COnClickedWorldButton
+---@field OnClickedNewWorldButton FWBP_Title_WorldSelect_COnClickedNewWorldButton
+---@field OnClickedStartWorldButton FWBP_Title_WorldSelect_COnClickedStartWorldButton
+---@field IsOpenedLocalWorldMenu boolean
+---@field CachedLastClickedWorldButton UWBP_Title_WorldSelect_ListContent_C
+---@field OnClickedWorldSettingButton FWBP_Title_WorldSelect_COnClickedWorldSettingButton
+---@field CachedLastClickLocalWorldMenuButton UWBP_Title_SettingsButton_C
+---@field OnClickedDeleteWorldButton FWBP_Title_WorldSelect_COnClickedDeleteWorldButton
+---@field OnClickedServerButton FWBP_Title_WorldSelect_COnClickedServerButton
+---@field ServerSearchHintTextMsgID FDataTableRowHandle
+---@field ServerSearchButtonMsgID FDataTableRowHandle
+---@field OnClickedServerSearchButton FWBP_Title_WorldSelect_COnClickedServerSearchButton
+---@field OnSelectedServerSortType FWBP_Title_WorldSelect_COnSelectedServerSortType
+---@field SortTypeMsgIDMap TMap<EPalUIServerListSortType, FDataTableRowHandle>
+---@field SortTypeStringTypeMap TMap<FString, EPalUIServerListSortType>
+---@field FilterTypeMsgIDMap TMap<EPalUIServerListFilterType, FDataTableRowHandle>
+---@field FilterStringTypeMap TMap<FString, EPalUIServerListFilterType>
+---@field OnClickedServerList_OfficialButton FWBP_Title_WorldSelect_COnClickedServerList_OfficialButton
+---@field OnClickedServerList_CommunityButton FWBP_Title_WorldSelect_COnClickedServerList_CommunityButton
+---@field OnClickedServerList_HistoryButton FWBP_Title_WorldSelect_COnClickedServerList_HistoryButton
+---@field ServerNextButtonMsgID FDataTableRowHandle
+---@field OnClickedServerList_NextButton FWBP_Title_WorldSelect_COnClickedServerList_NextButton
+---@field ServerConnectButtonMsgID FDataTableRowHandle
+---@field OnClicked_JoinByIPButton FWBP_Title_WorldSelect_COnClicked_JoinByIPButton
+---@field OnClickedOpenDirectoryButton FWBP_Title_WorldSelect_COnClickedOpenDirectoryButton
+UWBP_Title_WorldSelect_C = {}
+
+---@param Region FString
+function UWBP_Title_WorldSelect_C:GetSelectRegion(Region) end
+---@param Regions TArray<FString>
+function UWBP_Title_WorldSelect_C:SetRegions(Regions) end
+---@param Navigation EUINavigation
+---@return UWidget
+function UWBP_Title_WorldSelect_C:CustomNavi_ToServerTop(Navigation) end
+---@param IsEditing boolean
+function UWBP_Title_WorldSelect_C:IsEditingSearchWord(IsEditing) end
+---@param FilterTypeString FString
+---@param FilterType EPalUIServerListFilterType
+function UWBP_Title_WorldSelect_C:FlterTypeStringToFilterType(FilterTypeString, FilterType) end
+---@param SortTypeString FString
+---@param SortType EPalUIServerListSortType
+function UWBP_Title_WorldSelect_C:SortTypeStringToSortType(SortTypeString, SortType) end
+function UWBP_Title_WorldSelect_C:SetupComboboxStringData() end
+---@param Word FString
+function UWBP_Title_WorldSelect_C:GetServerSearchWord(Word) end
+---@param Widget UWBP_Title_WorldSelect_ListContent_C
+function UWBP_Title_WorldSelect_C:OnClickedServerButton_Internal(Widget) end
+UWBP_Title_WorldSelect_C['Close Local World Menu'] = function() end
+function UWBP_Title_WorldSelect_C:OpenLocalWorldMenu() end
+---@param Widget UWidget
+function UWBP_Title_WorldSelect_C:GetFocusTargetForServerList(Widget) end
+---@param TargetWidget UWidget
+function UWBP_Title_WorldSelect_C:GetFocusTargetForLocalWorldList(TargetWidget) end
+---@param ServerDisplayData TArray<FPalUIServerDisplayData>
+function UWBP_Title_WorldSelect_C:AddServerList(ServerDisplayData) end
+---@param Widget UWBP_Title_WorldSelect_CreateWorld_ListContent_C
+function UWBP_Title_WorldSelect_C:OnClickedNewWorldButton_Internal(Widget) end
+---@param Widget UWBP_Title_WorldSelect_ListContent_C
+function UWBP_Title_WorldSelect_C:OnClickedWorldButton_Internal(Widget) end
+---@param DIsplayDataArray TArray<FPalUILocalWorldDisplayData>
+function UWBP_Title_WorldSelect_C:AddLocalWorldDisplayData(DIsplayDataArray) end
+function UWBP_Title_WorldSelect_C:AnmEvent_ToStartGameMode() end
+function UWBP_Title_WorldSelect_C:AnmEvent_ToJoinServerMode() end
+function UWBP_Title_WorldSelect_C:BndEvt__WBP_Title_WorldSelect_WBP_Title_WorldSelectButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature() end
+function UWBP_Title_WorldSelect_C:BndEvt__WBP_Title_WorldSelect_WBP_Title_WorldSelectButton_ServerList_History_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature() end
+function UWBP_Title_WorldSelect_C:BndEvt__WBP_Title_WorldSelect_WBP_Title_WorldSelectButton_ServerList_History_1_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature() end
+function UWBP_Title_WorldSelect_C:BndEvt__WBP_Title_WorldSelect_WBP_Title_WorldSelectButton_ServerList_StatusPage_K2Node_ComponentBoundEvent_3_OnClicked__DelegateSignature() end
+function UWBP_Title_WorldSelect_C:BndEvt__WBP_Title_WorldSelect_WBP_Title_WorldSelectButton_ServerList_Community_K2Node_ComponentBoundEvent_4_OnClicked__DelegateSignature() end
+---@param SelectedOption FString
+function UWBP_Title_WorldSelect_C:BndEvt__WBP_Title_WorldSelect_WBP_SortoComboBox_Region_K2Node_ComponentBoundEvent_5_OnSelected__DelegateSignature(SelectedOption) end
+function UWBP_Title_WorldSelect_C:BndEvt__WBP_Title_WorldSelect_WBP_NextButton_K2Node_ComponentBoundEvent_7_OnClickedSingleButton__DelegateSignature() end
+function UWBP_Title_WorldSelect_C:Construct() end
+function UWBP_Title_WorldSelect_C:Destruct() end
+function UWBP_Title_WorldSelect_C:BndEvt__WBP_Title_WorldSelect_WBP_Title_SettingsButton_DeleteWorld_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature() end
+function UWBP_Title_WorldSelect_C:BndEvt__WBP_Title_WorldSelect_WBP_Title_SettingsButton_WorldSetting_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature() end
+function UWBP_Title_WorldSelect_C:BndEvt__WBP_Title_WorldSelect_WBP_Title_SettingsButton_Start_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature() end
+function UWBP_Title_WorldSelect_C:OnInitialized() end
+---@param SelectedOption FString
+function UWBP_Title_WorldSelect_C:BndEvt__WBP_Title_WorldSelect_WBP_GuildHeadButton_3_K2Node_ComponentBoundEvent_3_OnSelected__DelegateSignature(SelectedOption) end
+function UWBP_Title_WorldSelect_C:BndEvt__WBP_Title_WorldSelect_WBP_SearchButton_K2Node_ComponentBoundEvent_4_OnClickedSingleButton__DelegateSignature() end
+---@param Text FText
+function UWBP_Title_WorldSelect_C:SearchCommit(Text) end
+function UWBP_Title_WorldSelect_C:BndEvt__WBP_Title_WorldSelect_WBP_JoinByIPButton_K2Node_ComponentBoundEvent_5_OnClickedSingleButton__DelegateSignature() end
+---@param Button UCommonButtonBase
+function UWBP_Title_WorldSelect_C:BndEvt__WBP_Title_WorldSelect_WBP_PalInvisibleButton_OpenDirectory_K2Node_ComponentBoundEvent_6_CommonButtonBaseClicked__DelegateSignature(Button) end
+---@param EntryPoint int32
+function UWBP_Title_WorldSelect_C:ExecuteUbergraph_WBP_Title_WorldSelect(EntryPoint) end
+---@param SelectedWorldButton UWBP_Title_WorldSelect_ListContent_C
+function UWBP_Title_WorldSelect_C:OnClickedOpenDirectoryButton__DelegateSignature(SelectedWorldButton) end
+---@param Address FString
+function UWBP_Title_WorldSelect_C:OnClicked_JoinByIPButton__DelegateSignature(Address) end
+function UWBP_Title_WorldSelect_C:OnClickedServerList_NextButton__DelegateSignature() end
+function UWBP_Title_WorldSelect_C:OnClickedServerList_HistoryButton__DelegateSignature() end
+function UWBP_Title_WorldSelect_C:OnClickedServerList_CommunityButton__DelegateSignature() end
+---@param SortType EPalUIServerListSortType
+function UWBP_Title_WorldSelect_C:OnSelectedServerSortType__DelegateSignature(SortType) end
+---@param SearchWord FString
+function UWBP_Title_WorldSelect_C:OnClickedServerSearchButton__DelegateSignature(SearchWord) end
+---@param Widget UWBP_Title_WorldSelect_ListContent_C
+function UWBP_Title_WorldSelect_C:OnClickedServerButton__DelegateSignature(Widget) end
+function UWBP_Title_WorldSelect_C:OnClickedServerList_OfficialButton__DelegateSignature() end
+function UWBP_Title_WorldSelect_C:OnClickedDeleteWorldButton__DelegateSignature() end
+function UWBP_Title_WorldSelect_C:OnClickedWorldSettingButton__DelegateSignature() end
+function UWBP_Title_WorldSelect_C:OnClickedStartWorldButton__DelegateSignature() end
+---@param ButtonWidget UWBP_Title_WorldSelect_CreateWorld_ListContent_C
+function UWBP_Title_WorldSelect_C:OnClickedNewWorldButton__DelegateSignature(ButtonWidget) end
+---@param ButtonWidget UWBP_Title_WorldSelect_ListContent_C
+function UWBP_Title_WorldSelect_C:OnClickedWorldButton__DelegateSignature(ButtonWidget) end
+
+

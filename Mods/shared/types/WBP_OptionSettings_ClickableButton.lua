@@ -1,0 +1,18 @@
+---@meta
+
+---@class UWBP_OptionSettings_ClickableButton_C : UUserWidget
+---@field UberGraphFrame FPointerToUberGraphFrame
+---@field Anm_Click UWidgetAnimation
+---@field Button_ON UButton
+---@field CanvasPanel_Hover UCanvasPanel
+---@field OnClicked FWBP_OptionSettings_ClickableButton_COnClicked
+UWBP_OptionSettings_ClickableButton_C = {}
+
+function UWBP_OptionSettings_ClickableButton_C:BndEvt__WBP_OptionSettings_ListContentSwitch_Button_ON_K2Node_ComponentBoundEvent_3_OnButtonHoverEvent__DelegateSignature() end
+function UWBP_OptionSettings_ClickableButton_C:BndEvt__WBP_OptionSettings_ListContentSwitch_Button_ON_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature() end
+function UWBP_OptionSettings_ClickableButton_C:BndEvt__WBP_OptionSettings_ListContentSwitch_Button_ON_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature() end
+---@param EntryPoint int32
+function UWBP_OptionSettings_ClickableButton_C:ExecuteUbergraph_WBP_OptionSettings_ClickableButton(EntryPoint) end
+function UWBP_OptionSettings_ClickableButton_C:OnClicked__DelegateSignature() end
+
+

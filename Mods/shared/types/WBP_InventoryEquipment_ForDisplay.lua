@@ -1,0 +1,37 @@
+---@meta
+
+---@class UWBP_InventoryEquipment_ForDisplay_C : UPalUIInventoryEquipment
+---@field UberGraphFrame FPointerToUberGraphFrame
+---@field InvalidationBox_0 UInvalidationBox
+---@field WBP_InventoryEquipment UWBP_InventoryEquipment_C
+---@field Model UBP_InGameMenuInventoryModel_C
+---@field SimulateStatusPointInput FPalDataTableRowName_UIInputAction
+---@field ConfirmStatusPointInput FPalDataTableRowName_UIInputAction
+UWBP_InventoryEquipment_ForDisplay_C = {}
+
+function UWBP_InventoryEquipment_ForDisplay_C:OnEndGlide() end
+function UWBP_InventoryEquipment_ForDisplay_C:OnStartGlide() end
+UWBP_InventoryEquipment_ForDisplay_C['Try Start Simulate Status Point'] = function() end
+UWBP_InventoryEquipment_ForDisplay_C['Setup Static Input Action'] = function() end
+function UWBP_InventoryEquipment_ForDisplay_C:CancelSimulateStatusPoint() end
+---@param IsSimulating boolean
+function UWBP_InventoryEquipment_ForDisplay_C:IsSimulatingStatusPoint(IsSimulating) end
+---@return UWidget
+function UWBP_InventoryEquipment_ForDisplay_C:BP_GetDesiredFocusTarget() end
+---@param nowWeight float
+function UWBP_InventoryEquipment_ForDisplay_C:OnUpdateInventoryWeight(nowWeight) end
+---@param Model UBP_InGameMenuInventoryModel_C
+function UWBP_InventoryEquipment_ForDisplay_C:Setup(Model) end
+function UWBP_InventoryEquipment_ForDisplay_C:Construct() end
+function UWBP_InventoryEquipment_ForDisplay_C:BndEvt__WBP_InventoryEquipment_ForDisplay_WBP_InventoryEquipment_K2Node_ComponentBoundEvent_0_OnClickedItemDrop__DelegateSignature() end
+function UWBP_InventoryEquipment_ForDisplay_C:BndEvt__WBP_InventoryEquipment_ForDisplay_WBP_InventoryEquipment_K2Node_ComponentBoundEvent_1_OnClickedItemDestroy__DelegateSignature() end
+---@param PointMap TMap<FName, int32>
+function UWBP_InventoryEquipment_ForDisplay_C:BndEvt__WBP_InventoryEquipment_ForDisplay_WBP_InventoryEquipment_K2Node_ComponentBoundEvent_2_OnConfirmStatusPointEdit__DelegateSignature(PointMap) end
+---@param EquipType EPalPlayerEquipItemSlotType
+function UWBP_InventoryEquipment_ForDisplay_C:BndEvt__WBP_InventoryEquipment_ForDisplay_WBP_InventoryEquipment_K2Node_ComponentBoundEvent_3_OnRequestSwapEquipment__DelegateSignature(EquipType) end
+function UWBP_InventoryEquipment_ForDisplay_C:BndEvt__WBP_InventoryEquipment_ForDisplay_WBP_InventoryEquipment_K2Node_ComponentBoundEvent_4_OnClickedSortButton__DelegateSignature() end
+function UWBP_InventoryEquipment_ForDisplay_C:Destruct() end
+---@param EntryPoint int32
+function UWBP_InventoryEquipment_ForDisplay_C:ExecuteUbergraph_WBP_InventoryEquipment_ForDisplay(EntryPoint) end
+
+

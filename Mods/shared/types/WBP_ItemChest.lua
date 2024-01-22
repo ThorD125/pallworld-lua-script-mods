@@ -1,0 +1,45 @@
+---@meta
+
+---@class UWBP_ItemChest_C : UPalUserWidgetOverlayUI
+---@field UberGraphFrame FPointerToUberGraphFrame
+---@field Default_In UWidgetAnimation
+---@field WBP_IngameMenu_Chest UWBP_IngameMenu_Chest_C
+---@field InventoryModel UBP_PalInventoryModel_C
+---@field LeftFocusInput FPalDataTableRowName_UIInputAction
+---@field RightFocusInput FPalDataTableRowName_UIInputAction
+---@field FastGetInput FPalDataTableRowName_UIInputAction
+---@field CachedLastFocusedInventorySlot UPalItemSlot
+---@field CachedLastFocusedTargetContainerSlot UPalItemSlot
+---@field AllGetInput FPalDataTableRowName_UIInputAction
+---@field DisplayInventoryType TArray<EPalPlayerInventoryType>
+---@field TabActionName FName
+---@field RefillInput FPalDataTableRowName_UIInputAction
+---@field TargetContainerId FPalContainerId
+---@field SortInput FPalDataTableRowName_UIInputAction
+UWBP_ItemChest_C = {}
+
+function UWBP_ItemChest_C:Sort() end
+function UWBP_ItemChest_C:Refill() end
+---@return UWidget
+function UWBP_ItemChest_C:BP_GetDesiredFocusTarget() end
+function UWBP_ItemChest_C:AllGet() end
+function UWBP_ItemChest_C:FastMove() end
+function UWBP_ItemChest_C:Setup() end
+function UWBP_ItemChest_C:OnSetup() end
+function UWBP_ItemChest_C:Construct() end
+function UWBP_ItemChest_C:ChangeFocus_Inv_Pad() end
+function UWBP_ItemChest_C:ChangeFocus_Chest_Pad() end
+function UWBP_ItemChest_C:BndEvt__WBP_ItemChest_WBP_IngameMenu_Chest_K2Node_ComponentBoundEvent_3_OnClickedQuickMoveButton__DelegateSignature() end
+function UWBP_ItemChest_C:BndEvt__WBP_ItemChest_WBP_IngameMenu_Chest_K2Node_ComponentBoundEvent_8_OnClickedInventorySortButton__DelegateSignature() end
+---@param SlotButton UWBP_PalItemSlotButtonBase_C
+function UWBP_ItemChest_C:BndEvt__WBP_ItemChest_WBP_IngameMenu_Chest_K2Node_ComponentBoundEvent_9_OnHoveredInventorySlot__DelegateSignature(SlotButton) end
+function UWBP_ItemChest_C:BndEvt__WBP_ItemChest_WBP_IngameMenu_Chest_K2Node_ComponentBoundEvent_12_OnClickedTargetContainerSortButton__DelegateSignature() end
+function UWBP_ItemChest_C:BndEvt__WBP_ItemChest_WBP_IngameMenu_Chest_K2Node_ComponentBoundEvent_13_OnUnhoveredInventorySlot__DelegateSignature() end
+---@param SlotButton UWBP_PalItemSlotButtonBase_C
+function UWBP_ItemChest_C:BndEvt__WBP_ItemChest_WBP_IngameMenu_Chest_K2Node_ComponentBoundEvent_14_OnHoveredTargetContainerSlot__DelegateSignature(SlotButton) end
+function UWBP_ItemChest_C:BndEvt__WBP_ItemChest_WBP_IngameMenu_Chest_K2Node_ComponentBoundEvent_15_OnUnhoveredTargetContainerSlot__DelegateSignature() end
+function UWBP_ItemChest_C:BndEvt__WBP_ItemChest_WBP_IngameMenu_Chest_K2Node_ComponentBoundEvent_16_OnClickedCloseButton__DelegateSignature() end
+---@param EntryPoint int32
+function UWBP_ItemChest_C:ExecuteUbergraph_WBP_ItemChest(EntryPoint) end
+
+

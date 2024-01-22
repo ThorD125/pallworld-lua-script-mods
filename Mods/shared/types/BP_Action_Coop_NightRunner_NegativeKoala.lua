@@ -1,0 +1,32 @@
+---@meta
+
+---@class UBP_Action_Coop_NightRunner_NegativeKoala_C : UPalActionBase
+---@field UberGraphFrame FPointerToUberGraphFrame
+UBP_Action_Coop_NightRunner_NegativeKoala_C = {}
+
+---@param NotifyName FName
+function UBP_Action_Coop_NightRunner_NegativeKoala_C:OnNotifyEnd_BCA1F4734895A0A34F9DBABBDBAC2305(NotifyName) end
+---@param NotifyName FName
+function UBP_Action_Coop_NightRunner_NegativeKoala_C:OnNotifyBegin_BCA1F4734895A0A34F9DBABBDBAC2305(NotifyName) end
+---@param NotifyName FName
+function UBP_Action_Coop_NightRunner_NegativeKoala_C:OnInterrupted_BCA1F4734895A0A34F9DBABBDBAC2305(NotifyName) end
+---@param NotifyName FName
+function UBP_Action_Coop_NightRunner_NegativeKoala_C:OnBlendOut_BCA1F4734895A0A34F9DBABBDBAC2305(NotifyName) end
+---@param NotifyName FName
+function UBP_Action_Coop_NightRunner_NegativeKoala_C:OnCompleted_BCA1F4734895A0A34F9DBABBDBAC2305(NotifyName) end
+---@param NotifyName FName
+function UBP_Action_Coop_NightRunner_NegativeKoala_C:OnNotifyEnd_7266469A4B49063A57A1A182103DAE93(NotifyName) end
+---@param NotifyName FName
+function UBP_Action_Coop_NightRunner_NegativeKoala_C:OnNotifyBegin_7266469A4B49063A57A1A182103DAE93(NotifyName) end
+---@param NotifyName FName
+function UBP_Action_Coop_NightRunner_NegativeKoala_C:OnInterrupted_7266469A4B49063A57A1A182103DAE93(NotifyName) end
+---@param NotifyName FName
+function UBP_Action_Coop_NightRunner_NegativeKoala_C:OnBlendOut_7266469A4B49063A57A1A182103DAE93(NotifyName) end
+---@param NotifyName FName
+function UBP_Action_Coop_NightRunner_NegativeKoala_C:OnCompleted_7266469A4B49063A57A1A182103DAE93(NotifyName) end
+function UBP_Action_Coop_NightRunner_NegativeKoala_C:OnBeginAction() end
+function UBP_Action_Coop_NightRunner_NegativeKoala_C:OnEndAction() end
+---@param EntryPoint int32
+function UBP_Action_Coop_NightRunner_NegativeKoala_C:ExecuteUbergraph_BP_Action_Coop_NightRunner_NegativeKoala(EntryPoint) end
+
+

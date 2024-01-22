@@ -1,0 +1,76 @@
+---@meta
+
+---@class UWBP_Paldex_PalInfo_00_C : UUserWidget
+---@field UberGraphFrame FPointerToUberGraphFrame
+---@field Base UImage
+---@field BaseL_0 UImage
+---@field BaseL_1 UImage
+---@field BaseR_0 UImage
+---@field BaseR_1 UImage
+---@field BP_PalTextBlock_C_115 UBP_PalTextBlock_C
+---@field Canvas_PartnerSkill UCanvasPanel
+---@field CanvasPanel UCanvasPanel
+---@field Dot UImage
+---@field Dot_0 UImage
+---@field Dot_1 UImage
+---@field Dot_2 UImage
+---@field Dot_3 UImage
+---@field Dot_4 UImage
+---@field Dot_5 UImage
+---@field Dot_6 UImage
+---@field FoodAmountBase UImage
+---@field HorizontalBox_CaptureNum UHorizontalBox
+---@field Image_0 UImage
+---@field Image_1 UImage
+---@field Image_2 UImage
+---@field Image_3 UImage
+---@field Image_4 UImage
+---@field Image_5 UImage
+---@field Image_6 UImage
+---@field Image_7 UImage
+---@field Image_8 UImage
+---@field Image_9 UImage
+---@field Image_10 UImage
+---@field Image_11 UImage
+---@field Image_12 UImage
+---@field Image_13 UImage
+---@field Image_14 UImage
+---@field Image_15 UImage
+---@field Image_27 UImage
+---@field Image_28 UImage
+---@field Image_29 UImage
+---@field Image_30 UImage
+---@field Image_172 UImage
+---@field Image_245 UImage
+---@field RichText_PartnerSkillDesc UBP_PalRichTextBlock_C
+---@field SkillBase UImage
+---@field SkillBase_1 UImage
+---@field SkillInfo UCanvasPanel
+---@field Text_CaptureNumValue UBP_PalTextBlock_C
+---@field Text_PartnerSkillName UBP_PalTextBlock_C
+---@field UniformGrid_Suitability UUniformGridPanel
+---@field WBP_MainMenu_Pal_FoodAmount UWBP_MainMenu_Pal_FoodAmount_C
+---@field WBP_Paldex_DropItem UWBP_Paldex_DropItem_C
+---@field WBP_Paldex_DropItem_1 UWBP_Paldex_DropItem_C
+---@field WBP_Paldex_DropItem_2 UWBP_Paldex_DropItem_C
+---@field WBP_Paldex_DropItem_3 UWBP_Paldex_DropItem_C
+---@field WBP_Paldex_Task UWBP_Paldex_Task_C
+---@field WeightBase UImage
+---@field WeightBaseFrame UImage
+---@field DropItemWidgetArray TArray<UWBP_Paldex_DropItem_C>
+UWBP_Paldex_PalInfo_00_C = {}
+
+function UWBP_Paldex_PalInfo_00_C:HideDropItems() end
+---@param DisplayInfo FPalUIPaldex_DisplayInfo
+function UWBP_Paldex_PalInfo_00_C:Setup_Captured(DisplayInfo) end
+---@param DisplayInfo FPalUIPaldex_DisplayInfo
+function UWBP_Paldex_PalInfo_00_C:Setup_Encounted(DisplayInfo) end
+---@param DisplayInfo FPalUIPaldex_DisplayInfo
+function UWBP_Paldex_PalInfo_00_C:Setup_NotEncounted(DisplayInfo) end
+---@param DisplayInfo FPalUIPaldex_DisplayInfo
+function UWBP_Paldex_PalInfo_00_C:Setup(DisplayInfo) end
+function UWBP_Paldex_PalInfo_00_C:OnInitialized() end
+---@param EntryPoint int32
+function UWBP_Paldex_PalInfo_00_C:ExecuteUbergraph_WBP_Paldex_PalInfo_00(EntryPoint) end
+
+
