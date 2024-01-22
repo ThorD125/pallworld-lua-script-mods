@@ -1,4 +1,4 @@
-CheatManagerEnablerMod : 1
+CheatManagerEnablerMod : 0
 ActorDumperMod : 0
 ConsoleCommandsMod : 0
 ConsoleEnablerMod : 0
