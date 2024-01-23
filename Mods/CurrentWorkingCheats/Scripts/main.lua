@@ -92,13 +92,13 @@ RegisterKeyBind(Key.F9, {}, function()
   end
 end)
 
-RegisterKeyBind(Key.F10, {}, function()
-  local hud = FindFirstOf("BP_PalHUD_InGame_C")
+-- RegisterKeyBind(Key.F10, {}, function()
+--   local hud = FindFirstOf("BP_PalHUD_InGame_C")
   
-  if hud:IsValid() then
-      hud.bShowDebugInfo = not hud.bShowDebugInfo
-  end
-end)
+--   if hud:IsValid() then
+--       hud.bShowDebugInfo = not hud.bShowDebugInfo
+--   end
+-- end)
 
 -- RegisterKeyBind(Key.F12, {}, function()
 --   local hud = FindFirstOf("BP_PalHUD_InGame_C")
@@ -122,15 +122,15 @@ end)
 --   }
 -- end)
 
--- RegisterKeyBind(Key.F9, function()
---   local PalPlayerController = FindFirstOf("PalPlayerController")
---   local PalCheatManager = PalPlayerController.CheatManager
---   PalPlayerController:EnableCheats()
+RegisterKeyBind(Key.F10, function()
+  local PalPlayerController = FindFirstOf("PalPlayerController")
+  local PalCheatManager = PalPlayerController.CheatManager
+  PalPlayerController:EnableCheats()
 
 
---   PalCheatManager:DebugWindow()
+  PalCheatManager:DebugWindow()
 
--- end)
+end)
 
 -- local UEHelpers = require("UEHelpers")
 -- local GetKismetSystemLibrary = UEHelpers.GetKismetSystemLibrary
